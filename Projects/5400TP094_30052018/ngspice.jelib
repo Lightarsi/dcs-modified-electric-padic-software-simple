@@ -1,0 +1,185 @@
+# header information:
+Hngspice|9.07
+
+# Views:
+Vicon|ic
+
+# Cell 5400TP094_core;1{ic}
+C5400TP094_core;1{ic}||artwork|1233229828125|1532612098548|E|ATTR_rshunt(D6G5;HNPX1.25;Y-5.5;)S10G|ATTR_tstep(D6G5;HNPX1.25;Y3.75;)S100n|ATTR_tstop(D6G5;HNPX1.25;Y-1;)S4u|ATTR_SPICE_template(A20;D6NTX36.25;Y1.75;)S[.options filetype=ascii,.tran $(tstep) $(tstop),".include \"C:/dcsELE/Spice64/models/SOIMOD018.tec\"",.global VDDA! VSSA!,.options method=gear reltol=0.01 itl4=500 altinit=10 RSHUNT=$(rshunt) cshunt=1e-15 abstol=5u chgtol=2p vntol=5u trtol=7]
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NArrow|art@23||-10|0|20|20||
+Ngeneric:Invisible-Pin|pin@9||1.25|8.5|||||ART_message(D6G5;)Stran_control
+X
+
+# Cell 5400TP094_core_ac;1{ic}
+C5400TP094_core_ac;1{ic}||artwork|1233229828125|1527081417476|E|ATTR_fstart(D6G5;HNPX1.25;Y3;)I1|ATTR_fstop(D6G5;HNPX1;Y-1.75;)S1G|ATTR_nop(D6G5;HNPX1.25;Y-6.75;)I100|ATTR_SPICE_template(A20;D6NTX25;Y-0.5;)S[.options filetype=ascii,.ac dec $(nop) $(fstart) $(fstop),".include \"./models/SOIMOD018.tec\"",.global VDDA! VSSA!,.options method=gear reltol=0.01 itl4=500 altinit=10 RSHUNT=10G cshunt=1e-15 abstol=5u chgtol=2p vntol=5u trtol=7]
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NArrow|art@23||-10|0|20|20||
+Ngeneric:Invisible-Pin|pin@9||1.25|8.5|||||ART_message(D6G5;)Sac_control
+X
+
+# Cell ipulse;1{ic}
+Cipulse;1{ic}||artwork|1233229828125|1478784379068|E|ATTR_I1(D6G1.5;HNOLPUDX-0.5;Y2.75;)S""|ATTR_I2(D6G1.5;HNOLPUDX-0.5;Y1.25;)S""|ATTR_PER(D6G1.5;HNOLPUDX-0.5;Y-6.25;)S""|ATTR_PW(D6G1.5;HNOLPUDX-0.5;Y-4.75;)S""|ATTR_TD(D6G1.5;HNOLPUDX-0.5;Y-0.25;)S""|ATTR_TF(D6G1.5;HNOLPUDX-0.5;Y-3.25;)S""|ATTR_TR(D6G1.5;HNOLPUDX-0.5;Y-1.75;)S""|ATTR_SPICE_template(A20;D5NTX-2.5;Y-7.75;)SI$(node_name) $(VSP) $(VSN) pulse ( $(I1) $(I2) $(TD) $(TR) $(TF) $(PW) $(PER) )
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@9||-2.7|3.05|0.2|0.2||
+NBox|art@12||-2.7|-6.2|0.2|0.2||
+NOpened-Polygon|art@16||-2.7|2.925||0.25|||trace()V[0/-0.125,0/0.125]
+NOpened-Polygon|art@17||-2.7|-6.075||0.25|||trace()V[0/-0.125,0/0.125]
+NBox|art@31||-2.7|3.05|0.2|0.2||
+NBox|art@32||-2.7|-6.2|0.2|0.2||
+NOpened-Polygon|art@33||-2.7|-6.075||0.25|||trace()V[0/-0.125,0/0.125]
+NOpened-Thicker-Polygon|art@34||-2.7|-1.825|2|1.75|||trace()V[-1/-0.875,-1/0.875,0/0.875,0/-0.875,1/-0.875,1/0.625,1/0.875]
+NThick-Circle|art@35||-2.7|-1.7|4|4||
+NOpened-Thicker-Polygon|art@36||-2.7|1.7||2.7|||trace()V[0/-1.35,0/1.15,0/1.35,0/-1.35,0/0.65]
+NOpened-Thicker-Polygon|art@37||-2.7|-4.95||2.5|||trace()V[0/-1.25,0/1.25,0/-1.25,0/0.75]
+Nschematic:Bus_Pin|pin@0||-2.7|3.05|-1.75|-1.75||
+Nschematic:Bus_Pin|pin@3||-2.7|-6.2|-1.75|-1.75||
+Nschematic:Bus_Pin|pin@9||-2.7|3.05|-1.75|-1.75||
+Nschematic:Bus_Pin|pin@10||-2.7|-6.2|-1.75|-1.75||
+Ngeneric:Invisible-Pin|pin@11||-5.3|-1.8|||||ART_message(D5G2;)SI
+ASolid|net@0|||FS2700|art@33||-2.7|-5.95|art@37||-2.7|-5.5
+ASolid|net@1|||FS2700|art@36||-2.7|3.05|art@31||-2.7|3.15
+ASolid|net@2|||FS900|art@31||-2.7|3.15|art@36||-2.7|3.05
+ASolid|net@3|||FS900|art@31||-2.7|2.95|art@36||-2.7|2.5
+EVSN||D5G0.25;|pin@3||B
+EVSP||D5G0.25;|pin@0||B
+X
+
+# Cell isource;1{ic}
+Cisource;1{ic}||artwork|1233229828125|1478784258289|E|ATTR_VAL(D6G1.5;HNOLPUDX-3.75;Y-1;)S""|ATTR_SPICE_template(A20;D5NTX-5.75;Y-6.25;)SI$(node_name) $(VSP) $(VSN) $(VAL)
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@9||-5.9|3.8|0.2|0.2||
+NBox|art@12||-5.9|-5.45|0.2|0.2||
+NOpened-Polygon|art@16||-5.9|3.675||0.25|||trace()V[0/-0.125,0/0.125]
+NOpened-Polygon|art@17||-5.9|-5.325||0.25|||trace()V[0/-0.125,0/0.125]
+NThick-Circle|art@33||-5.9|-0.95|4|4||
+NOpened-Thicker-Polygon|art@34||-5.9|2.45||2.7|||trace()V[0/-1.35,0/1.15,0/1.35,0/-1.35,0/0.65]
+NOpened-Thicker-Polygon|art@35||-5.9|-4.2||2.5|||trace()V[0/-1.25,0/1.25,0/-1.25,0/0.75]
+NOpened-Thicker-Polygon|art@37||-5.875|-0.6|2.65|1|||trace()V[-1.325/0.5,-0.025/-0.5,1.325/0.5]
+NOpened-Thicker-Polygon|art@38||-5.875|-1.55|2.65|1|||trace()V[-1.325/0.5,-0.025/-0.5,1.325/0.5]
+Nschematic:Bus_Pin|pin@0||-5.9|3.8|-1.75|-1.75||
+Nschematic:Bus_Pin|pin@3||-5.9|-5.45|-1.75|-1.75||
+Ngeneric:Invisible-Pin|pin@11||-8.5|-1.05|||||ART_message(D5G2;)SI
+EVSN||D5G0.25;|pin@3||B
+EVSP||D5G0.25;|pin@0||B
+X
+
+# Cell vcvs;1{ic}
+Cvcvs;1{ic}||artwork|1233229828125|1324230622926|E|ATTR_VAL(D6G0.5;HNOLPUDX0.5;Y0.5;)S""|ATTR_SPICE_template(A20;D5NTX1.25;Y-2.25;)SB$(node_name) $(VSP) $(VSN) V=(V($(VCP))-V($(VCN)))*$(VAL)
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@9||2.5|0|0.2|0.2||
+NBox|art@10||0|0|0.2|0.2||
+NBox|art@11||0|-2|0.2|0.2||
+NBox|art@12||2.5|-2|0.2|0.2||
+NCircle|art@13||1.5|-1|1|1||
+NOpened-Polygon|art@14||2.25|0|0.5||||trace()V[-0.25/0,0.25/0]
+NOpened-Polygon|art@15||2.25|-2|0.5||||trace()V[-0.25/0,0.25/0]
+NOpened-Polygon|art@16||1.5|-0.125||0.25|||trace()V[0/-0.125,0/0.125]
+NOpened-Polygon|art@17||1.5|-1.875||0.25|||trace()V[0/-0.125,0/0.125]
+NOpened-Polygon|art@19||1.5|-0.875||0.25|||trace()V[0/-0.125,0/0.125]
+NOpened-Polygon|art@20||1.5|-0.375||0.25|||trace()V[0/-0.125,0/0.125]
+NOpened-Polygon|art@21||1.75|0|0.5||||trace()V[-0.25/0,0.25/0]
+NOpened-Polygon|art@22||1.5|-1.625||0.25|||trace()V[0/-0.125,0/0.125]
+NOpened-Polygon|art@23||1.75|-2|0.5||||trace()V[-0.25/0,0.25/0]
+NOpened-Polygon|art@24||1.5|-1.125||0.25|||trace()V[0/-0.125,0/0.125]
+NOpened-Polygon|art@25||1.375|-0.875|0.25|0.25|||trace()V[-0.125/-0.125,0.125/0.125]
+NOpened-Polygon|art@26||1.625|-0.875|0.25|0.25|||trace()V[0.125/-0.125,-0.125/0.125]
+Nschematic:Bus_Pin|pin@0||2.5|0|-1.75|-1.75||
+Nschematic:Bus_Pin|pin@1||0|0|-1.75|-1.75||
+Nschematic:Bus_Pin|pin@2||0|-2|-1.75|-1.75||
+Nschematic:Bus_Pin|pin@3||2.5|-2|-1.75|-1.75||
+Ngeneric:Invisible-Pin|pin@4||0.5|0|||||ART_message(D5G0.5;)S+
+Ngeneric:Invisible-Pin|pin@5||0.5|-2|||||ART_message(D5G0.5;)S-
+Ngeneric:Invisible-Pin|pin@8||0.75|-1|||||ART_message(D5G0.5;)SE
+EB|VCN|D5G0.25;|pin@2||B
+EG|VCP|D5G0.25;|pin@1||I
+ED|VSN|D5G0.25;|pin@3||B
+ES|VSP|D5G0.25;|pin@0||B
+X
+
+# Cell vpulse;1{ic}
+Cvpulse;1{ic}||artwork|1233229828125|1506936110219|E|ATTR_PER(D6G1;HNPX2.75;Y-3.75;)S""|ATTR_PW(D6G1;HNPX2.75;Y-2.75;)S""|ATTR_TD(D6G1;HNPX2.75;Y0.25;)S""|ATTR_TF(D6G1;HNPX2.75;Y-1.75;)S""|ATTR_TR(D6G1;HNPX2.75;Y-0.75;)S""|ATTR_V1(D6G1;HNPX2.75;Y2.25;)S""|ATTR_V2(D6G1;HNPX2.75;Y1.25;)S""|ATTR_SPICE_template(A20;D5NTX7.75;Y-7.75;)SV$(node_name) $(VSP) 0 pulse ( $(V1) $(V2) $(TD) $(TR) $(TF) $(PW) $(PER) )
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@9||0|4.25|0.2|0.2||
+NOpened-Polygon|art@17||0|-4.625||0.25|||trace()V[0/-0.125,0/0.125]
+NThick-Circle|art@31||0|-0.25|4|4||
+NOpened-Thicker-Polygon|art@32||0|3||2.5|||trace()V[0/-1.25,0/1.065,0/1.25,0/-1.25,0/0.6025]
+NOpened-Thicker-Polygon|art@33||0|-3.5||2.5|||trace()V[0/-1.25,0/1.25,0/-1.25,0/0.75]
+NOpened-Thicker-Polygon|art@35||0|-4.75|4||||trace()V[-2/0,2/0]
+NOpened-Thicker-Polygon|art@36||0|-5.75|2.5||||trace()V[-1.25/0,1.25/0]
+NOpened-Thicker-Polygon|art@37||0|-6.75|1||||trace()V[-0.5/0,0.5/0]
+NOpened-Thicker-Polygon|art@42||0|-0.25|2|1.75|||trace()V[-1/-0.875,-1/0.875,0/0.875,0/-0.875,1/-0.875,1/0.625,1/0.875]
+Nschematic:Bus_Pin|pin@0||0|4.25|-1.75|-1.75||
+Ngeneric:Invisible-Pin|pin@11||-2.35|-0.25|||||ART_message(D4G1.5;)Svpulse
+EVSP||D5G0.25;|pin@0||B
+X
+
+# Cell vpwl;1{ic}
+Cvpwl;1{ic}||artwork|1233229828125|1507110512428|E|ATTR_VAL(D6G1.5;HNPX2.5;Y-0.25;)S""|ATTR_SPICE_template(A20;D5NTX9.5;Y-3.5;)SV$(node_name) $(VSP) 0 PWL $(VAL)
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@9||0|4.25|0.2|0.2||
+NOpened-Polygon|art@17||0|-4.625||0.25|||trace()V[0/-0.125,0/0.125]
+NThick-Circle|art@31||0|-0.25|4|4||
+NOpened-Thicker-Polygon|art@32||0|3||2.5|||trace()V[0/-1.25,0/1.065,0/1.25,0/-1.25,0/0.6025]
+NOpened-Thicker-Polygon|art@33||0|-3.5||2.5|||trace()V[0/-1.25,0/1.25,0/-1.25,0/0.75]
+NOpened-Thicker-Polygon|art@35||0|-4.75|4||||trace()V[-2/0,2/0]
+NOpened-Thicker-Polygon|art@36||0|-5.75|2.5||||trace()V[-1.25/0,1.25/0]
+NOpened-Thicker-Polygon|art@37||0|-6.75|1||||trace()V[-0.5/0,0.5/0]
+NOpened-Thicker-Polygon|art@41||-0.25|0|2.25|2.75|||trace()V[-1.125/-1.2775,0.215/-0.2175,0.215/1.375,1.125/-0.2175,1.125/-1.375]
+Nschematic:Bus_Pin|pin@0||0|4.25|-1.75|-1.75||
+Ngeneric:Invisible-Pin|pin@11||-2.35|-0.25|||||ART_message(D4G1.5;)Svpwl
+EVSP||D5G0.25;|pin@0||B
+X
+
+# Cell vsin;1{ic}
+Cvsin;1{ic}||artwork|1233229828125|1507110089782|E|ATTR_FREQ(D6G1;HNPX2.75;Y-0.25;)S""|ATTR_TD(D6G1;HNPX2.75;Y-1.25;)S""|ATTR_THETA(D6G1;HNPX2.75;Y-2.25;)S""|ATTR_VA(D6G1;HNPX2.75;Y0.75;)S""|ATTR_VO(D6G1;HNPX2.75;Y1.75;)S""|ATTR_SPICE_template(A20;D5NTX7.25;Y-5.25;)SV$(node_name) $(VSP) 0 sin ( $(VO) $(VA) $(FREQ) $(TD) $(THETA))
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@9||0|4.25|0.2|0.2||
+NOpened-Polygon|art@17||0|-4.625||0.25|||trace()V[0/-0.125,0/0.125]
+NThick-Circle|art@31||0|-0.25|4|4||
+NOpened-Thicker-Polygon|art@32||0|3||2.5|||trace()V[0/-1.25,0/1.065,0/1.25,0/-1.25,0/0.6025]
+NOpened-Thicker-Polygon|art@33||0|-3.5||2.5|||trace()V[0/-1.25,0/1.25,0/-1.25,0/0.75]
+NOpened-Thicker-Polygon|art@35||0|-4.75|4||||trace()V[-2/0,2/0]
+NOpened-Thicker-Polygon|art@36||0|-5.75|2.5||||trace()V[-1.25/0,1.25/0]
+NOpened-Thicker-Polygon|art@37||0|-6.75|1||||trace()V[-0.5/0,0.5/0]
+NSpline|art@41||0.025|-0.225|3|5|||trace()V[-1.5/-0.5,-0.5/2.5,0.5/-2.5,1.5/0.5]
+Nschematic:Bus_Pin|pin@0||0|4.25|-1.75|-1.75||
+Ngeneric:Invisible-Pin|pin@11||-2.35|-0.25|||||ART_message(D4G1.5;)Svsin
+EVSP||D5G0.25;|pin@0||B
+X
+
+# Cell vsin_AC;1{ic}
+Cvsin_AC;1{ic}||artwork|1233229828125|1527067745984|E|ATTR_AC(D6G1;HNPX2.75;Y-3.25;)I1|ATTR_FREQ(D6G1;HNPX2.75;Y-0.25;)S""|ATTR_TD(D6G1;HNPX2.75;Y-1.25;)S""|ATTR_THETA(D6G1;HNPX2.75;Y-2.25;)S""|ATTR_VA(D6G1;HNPX2.75;Y0.75;)S""|ATTR_VO(D6G1;HNPX2.75;Y1.75;)S""|ATTR_SPICE_template(A20;D5NTX7.25;Y-5.25;)SV$(node_name) $(VSP) $(VSN) sin ( $(VO) $(VA) $(FREQ) $(TD) $(THETA)) AC $(AC)
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@9||0|4.25|0.2|0.2||
+NOpened-Polygon|art@17||0|-4.625||0.25|||trace()V[0/-0.125,0/0.125]
+NThick-Circle|art@31||0|-0.25|4|4||
+NOpened-Thicker-Polygon|art@32||0|3||2.5|||trace()V[0/-1.25,0/1.065,0/1.25,0/-1.25,0/0.6025]
+NOpened-Thicker-Polygon|art@33||0|-3.5||2.5|||trace()V[0/-1.25,0/1.25,0/-1.25,0/0.75]
+NOpened-Thicker-Polygon|art@35||0|-4.75|4||||trace()V[-2/0,2/0]
+NOpened-Thicker-Polygon|art@36||0|-5.75|2.5||||trace()V[-1.25/0,1.25/0]
+NOpened-Thicker-Polygon|art@37||0|-6.75|1||||trace()V[-0.5/0,0.5/0]
+NSpline|art@41||0.025|-0.225|3|5|||trace()V[-1.5/-0.5,-0.5/2.5,0.5/-2.5,1.5/0.5]
+Nschematic:Bus_Pin|pin@0||0|4.25|-1.75|-1.75||
+Ngeneric:Invisible-Pin|pin@11||-2.35|-0.25|||||ART_message(D4G1.5;)Svsin
+EVSP||D5G0.25;|pin@0||B
+X
+
+# Cell vsource;1{ic}
+Cvsource;1{ic}||artwork|1233229828125|1507378722453|E|ATTR_VAL(D6G1.5;HNPX2.5;Y-0.25;)S""|ATTR_SPICE_template(A20;D5NTX9;Y-3.5;)SV$(node_name) $(VSP) 0 $(VAL)
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@35||0|4.25|0.2|0.2||
+NOpened-Polygon|art@36||0|-4.625||0.25|||trace()V[0/-0.125,0/0.125]
+NThick-Circle|art@37||0|-0.25|4|4||
+NOpened-Thicker-Polygon|art@38||0|3||2.5|||trace()V[0/-1.25,0/1.065,0/1.25,0/-1.25,0/0.6025]
+NOpened-Thicker-Polygon|art@39||0|-3.5||2.5|||trace()V[0/-1.25,0/1.25,0/-1.25,0/0.75]
+NOpened-Thicker-Polygon|art@40||0|-4.75|4||||trace()V[-2/0,2/0]
+NOpened-Thicker-Polygon|art@41||0|-5.75|2.5||||trace()V[-1.25/0,1.25/0]
+NOpened-Thicker-Polygon|art@42||0|-6.75|1||||trace()V[-0.5/0,0.5/0]
+NOpened-Thicker-Polygon|art@43||0|-0.25||3|||trace()V[0/-1.5,0/1.5,0/-1,0/1]
+NOpened-Thicker-Polygon|art@44||0.5|0.75|1|1|||trace()V[-0.5/0.5,0.5/-0.5]
+NOpened-Thicker-Polygon|art@45||-0.5|0.75|1|1|||trace()V[-0.5/-0.5,0.5/0.5]
+Nschematic:Bus_Pin|pin@12||0|4.25|-1.75|-1.75||
+Ngeneric:Invisible-Pin|pin@13||-2.35|-0.25|||||ART_message(D4G1.5;)Svsource
+EVSP||D5G0.25;|pin@12||B
+X

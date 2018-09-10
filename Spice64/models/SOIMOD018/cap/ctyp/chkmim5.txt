@@ -1,0 +1,19 @@
+*
+.subckt chkmim5 PLUS MINUS 
++ w=3.5e-6 l=3.5e-6
++ ca           = 2.00e-3
++ ca_typ       = 2.00e-3
++ dw          = 0.0e-6
++ dw_typ      = 0.0e-6
++ dl           = 0.0e-6
++ dl_typ       = 0.0e-6
++ cf0          = 8.66e-11
++ cf0_typ      = 8.66e-11
++ cor          = 0
++ we           = w-dw_typ
++ c           = {(l-dl_typ)*(ca_typ*we+2*cf0_typ)-2*cor*cor*ca_typ+2*cf0_typ*(we-1.172*cor)}
++ cval        = {(2*cf0*(w-dw+dl_typ+(c-2*cf0_typ*(we-1.172*cor)+2*cor*cor*ca_typ)/(ca_typ*we+2*cf0_typ)-dl-1.172*cor)+ca*((w-dw)*(dl_typ+(c-2*cf0_typ*(we-1.172*cor)+2*cor*cor*ca_typ)/(ca_typ*we+2*cf0_typ)-dl)-2*cor*cor))}
+
+Cc   PLUS MINUS c={cval}
+
+.ends chkmim5 

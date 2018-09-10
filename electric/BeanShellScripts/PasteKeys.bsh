@@ -1,0 +1,171 @@
+// BeanShell script for Electric VLSI Paste Keys for 5400TP035 (v.2.5final, Ivanov D.S., 2016)  
+
+import java.util.Iterator;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import com.sun.electric.tool.user;
+import com.sun.electric.database;
+import com.sun.electric.tool.Job; 
+import com.sun.electric.database.topology.Geometric;
+import com.sun.electric.database.topology.NodeInst;
+import com.sun.electric.database.topology.PortInst;
+import com.sun.electric.tool.UserInterfaceInitial;
+import com.sun.electric.technology.ArcProto;
+import com.sun.electric.technology.technologies.Generic;
+import com.sun.electric.technology.technologies.Schematics;
+import com.sun.electric.tool.user.Highlighter;
+
+import com.sun.electric.tool.user.ui.WindowFrame;
+import com.sun.electric.database.hierarchy.Cell;
+import com.sun.electric.database.hierarchy.HierarchyEnumerator;
+import com.sun.electric.database.hierarchy.Nodable;
+import com.sun.electric.database.prototype.NodeProto;
+import com.sun.electric.tool.Job; 
+import com.sun.electric.tool.user.Highlighter;
+import com.sun.electric.tool.user.ui.EditWindow;
+import com.sun.electric.database.network.Netlist;
+import com.sun.electric.database.network.Network;
+import com.sun.electric.database.network.NetworkTool;
+import com.sun.electric.database.topology.ArcInst;
+import com.sun.electric.database.variable.VarContext;
+import com.sun.electric.database.hierarchy.Library;
+import com.sun.electric.database.topology.NodeInst;
+import com.sun.electric.database.variable.ElectricObject;
+
+//// MODEL ////
+
+	//stringCount
+	private static float getStringCount(File file)
+    {
+        float qr=0;
+        String line=null;
+        BufferedReader bufferedReader = null;
+        try{
+            FileReader fileReader = new FileReader(file);
+            bufferedReader = new BufferedReader(fileReader);
+            while(bufferedReader.readLine()!=null) {
+				qr=qr+1;
+			}
+            bufferedReader.close();
+			return qr;
+        }catch(Exception e){}
+    }
+	private static String getStopped(File file)
+    {
+		String str = "";
+		String str2 = "";
+        float qr=0;
+        String line=null;
+        BufferedReader bufferedReader = null;
+        try{
+            FileReader fileReader = new FileReader(file);
+            bufferedReader = new BufferedReader(fileReader);
+            while((line = bufferedReader.readLine())!=null) {
+				str2=str;
+				str = line;
+				qr=qr+1;
+			}
+            bufferedReader.close();
+			return str;
+        }catch(Exception e){}
+    }
+
+//// CONTROLLER ////	
+		// percentage
+		File f = new File("c:\\CYGELENG\\electric\\CopyKeys.info");
+		float count= getStringCount(f);
+
+		System.out.println("Script started");
+		// Return cell in given window
+		Cell curcell = Job.getUserInterface().getCurrentCell(); 
+		java.lang.String cellnam=curcell.getName();
+		
+		String writer = "";
+		
+		EditWindow wnd = EditWindow.needCurrent();
+		if (wnd == null) return;
+		Highlighter highlighter = wnd.getHighlighter();
+
+		List theNodes = new ArrayList();
+		theNodes = highlighter.getHighlightedNodes();
+		
+		// BUS OR WIRE
+		// to change you should replace word "bus" with "arc"
+		arc = Schematics.tech().wire_arc;
+		double size = 0.5;
+		
+		private static String fileName = "c:\\CYGELENG\\electric\\CopyKeys.info";
+		String stop = getStopped(f);
+		String stop_last = stop.substring(0,3);
+		
+		NodeInst current = theNodes.get(0);
+		int expnum=current.getNumPortInsts();
+		int i=0;
+		nodeName = current.getName();
+		if(!(nodeName.substring(0,3).equals(stop_last))) {
+					print("WRONG INSTANCE!");
+					return;
+				}
+		
+		count_cont=0;
+		NodeInst z;
+		int nodnum = curcell.getNumNodes();
+		int k = 0;
+			while(k<(nodnum-1)) {
+				z = curcell.getNodeById(k);
+				if(z.getName().equals(nodeName)) {
+					while(i<expnum) {
+						PortInst z_exp1 = z.getPortInst(i);
+						String myString = z_exp1.toString();
+						String[] parts1 = myString.split("].");
+						name = parts1[1];
+						int length = name.length();
+						if((name.substring(0,1).equals("n"))||(name.substring(0,1).equals("o"))||(name.substring(0,1).equals("p"))||(name.substring(0,1).equals("q"))||(name.substring(0,1).equals("r"))||(name.substring(0,1).equals("s"))||(name.substring(0,1).equals("t"))||(name.substring(0,1).equals("u"))||(name.substring(0,1).equals("v"))||(name.substring(0,1).equals("w"))) {
+							if((Integer.parseInt(name.substring(1,length-1)))%2==1) {
+								BufferedReader br = new BufferedReader (new FileReader (fileName));
+								String line;	
+								while( (line = br.readLine()) != null) {
+									String cname = line;
+									if(name.equals(cname)) {
+										String secondname = name.substring(0,1) + (Integer.parseInt(name.substring(1,length-1))+1) + "'";
+										j=0;
+										while(j<expnum) {
+											PortInst z_exp2 = z.getPortInst(j);
+											String myString2 = z_exp2.toString();
+											String[] parts2 = myString2.split("].");
+											name2 = parts2[1];
+											if(name2.equals(secondname)) {
+												ArcInst newArc = ArcInst.makeInstance(arc, z_exp1, z_exp2);
+												newArc.setLambdaBaseWidth(size);
+												highlighter.finished();
+												count_cont=count_cont+1;
+												if(percentage_last!=((int)((count_cont/count)*100))) {
+													print((int)((count_cont/count)*100)*2+"%");
+													percentage_last=((int)((count_cont/count)*100));
+												}
+											}
+											j++;
+										}
+									}
+								}
+								br.close();
+							}
+						}
+						i++;
+					}
+				}
+				k++;
+			}
+				
+			print("Process finished!");
+				
+				
+		

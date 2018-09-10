@@ -1,0 +1,7 @@
+// BeanShell script for Electric VLSI for deleting recent library pathes (v.0.1, Ivanov D.S., 2016)  
+
+import com.sun.electric.tool.user.*;
+
+User.clearRecentlyOpenedLibraries();
+
+

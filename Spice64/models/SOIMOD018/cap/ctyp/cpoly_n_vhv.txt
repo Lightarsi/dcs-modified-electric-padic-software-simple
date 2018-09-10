@@ -1,0 +1,49 @@
+*$Id: cpoly_n_vhv.scs 27 2013-07-11 11:56:09Z apotupchik $ 
+* ----------------------------------------------------------------------
+************* Mikron ******** MODEL PARAMETERS ***************************
+* ----------------------------------------------------------------------
+* Simulator : spectre
+* Device    : cpoly_n_vhv
+* Model     : subckt veriloga
+* Process   : SOI_0.18 5V0
+* Revision  : 0.1; 2012-08-31
+* ----------------------------------------------------------------------
+*                        CTYP MEAN CONDITION
+* ----------------------------------------------------------------------
+*simulator lang=spectre
+*subckt cpoly_n_vhv PLUS MINUS
+*parameters l=800e-6 w=25e-6 
+*//---------------------------------------------------------------------
+*//
+*+ cox         = 2.643e-3
+*+ dw          = -1.10e-8
+*+ dl          = -1.10e-8
+*+ tbox         = 300e-09
+*+ area         = (w-dw)*(l-dl)
+*+ cbox         = epsi_ox*area/tbox
+*//Useful constants for calculations
+*+ epsi_ox      = 3.45313e-11      // (F/m)
+*+ epsi_si      = 1.05364e-10   // (F/m)
+*+ q            = 1.60219e-19   // (Coulomb)
+*+ kb           = 1.3806226e-23 // (J.s) 
+*//Other Model parameters
+*+ tref         = 27
+*+ sub          = -1
+*+ sl1          = 0.2822
+*+ sl2          = 7.244e-04
+*+ eps          = 5.028e-10
+*+ mexp         = 0.9349
+*+ vsm          = 0.8317
+*+ nsub         = 7.198e22
+*+ vfb          = 3.109e-04
+*//---------------------------------------------------------------------
+*//  netlist
+*//---------------------------------------------------------------------
+*Cc  (PLUS MINUS PLUS MINUS)  vccapacitor area=area sub=sub nsub=nsub vfb=vfb vsm=vsm cox=cox sl1=sl1 sl2=sl2 mexp=mexp eps=eps mult=1
+*Cbox (PLUS MINUS) capacitor c=cbox
+*//---------------------------------------------------------------------
+
+*.ends cpoly_n_vhv 
+
+.model cpoly_n_vhv C
+

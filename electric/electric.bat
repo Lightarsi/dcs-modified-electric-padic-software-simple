@@ -1,0 +1,1 @@
+java -classpath "electric.jar;bsh-2.0b4.jar" com.sun.electric.Launcher -sdi -NOMINMEM

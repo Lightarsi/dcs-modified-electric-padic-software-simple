@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd"><preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map/>
+    <node name="com">
+      <map/>
+      <node name="sun">
+        <map/>
+        <node name="electric">
+          <map/>
+          <node name="database">
+            <map/>
+            <node name="hierarchy">
+              <map/>
+            </node>
+            <node name="network">
+              <map/>
+            </node>
+            <node name="variable">
+              <map>
+                <entry key="TextDescriptorForNode" value="128"/>
+                <entry key="TextDescriptorForExport" value="256"/>
+                <entry key="TextDescriptorForPort" value="128"/>
+              </map>
+            </node>
+          </node>
+          <node name="plugins">
+            <map/>
+            <node name="sctiming">
+              <map/>
+            </node>
+          </node>
+          <node name="technology">
+            <map/>
+            <node name="technologies">
+              <map>
+                <entry key="ColorForArcInschematic" value="3407871"/>
+                <entry key="ColorForGlyphIngeneric" value="0"/>
+                <entry key="ColorForGraphicsInartwork" value="3381504"/>
+                <entry key="ColorForNodeInschematic" value="3407616"/>
+                <entry key="ColorForTextInschematic" value="16777215"/>
+                <entry key="ColorForUniversalIngeneric" value="16737792"/>
+                <entry key="ColorForBusInschematic" value="3407871"/>
+                <entry key="PatternForBusInschematic" value="65535/65535/65535/65535/65535/65535/65535/65535/65535/65535/65535/65535/65535/65535/65535/65535"/>
+                <entry key="DefaultExtendForUniversalINgeneric" value="0.25"/>
+              </map>
+            </node>
+          </node>
+          <node name="tool">
+            <map/>
+            <node name="autotracing">
+              <map>
+                <entry key="keysIndicated" value="true"/>
+                <entry key="traceLogging" value="false"/>
+              </map>
+            </node>
+            <node name="compaction">
+              <map/>
+            </node>
+            <node name="cvspm">
+              <map/>
+            </node>
+            <node name="drc">
+              <map/>
+            </node>
+            <node name="erc">
+              <map/>
+            </node>
+            <node name="extract">
+              <map/>
+            </node>
+            <node name="generator">
+              <map/>
+              <node name="layout">
+                <map/>
+              </node>
+            </node>
+            <node name="io">
+              <map>
+                <entry key="EDIFAcceptedParameters" value="w/l/NF/r/c"/>
+                <entry key="EDIFCadenceCompatibility" value="true"/>
+                <entry key="EDIFUseSchematicView" value="true"/>
+                <entry key="FileTypeGroupDatabase" value="C:\CYGELENG\PROJECTS\5400TP035"/>
+                <entry key="FileTypeGroupExport-Import" value="C:\cygwin64\home\cygeleng\projects"/>
+                <entry key="FileTypeGroupSPICE Simulation" value="/C:/CYGELENG/PROJECTS/5400TP035/"/>
+                <entry key="PlotArea" value="0"/>
+                <entry key="PostScriptEncapsulated" value="false"/>
+                <entry key="PrintResolution" value="300"/>
+              </map>
+            </node>
+            <node name="logicaleffort">
+              <map/>
+            </node>
+            <node name="ncc">
+              <map>
+                <entry key="Operation" value="3"/>
+              </map>
+            </node>
+            <node name="placement">
+              <map/>
+            </node>
+            <node name="project">
+              <map>
+                <entry key="CurrentUserName" value="ComPAS-1"/>
+              </map>
+            </node>
+            <node name="routing">
+              <map>
+                <entry key="AutoStitchOn" value="false"/>
+              </map>
+            </node>
+            <node name="sc">
+              <map>
+                <entry key="HorizRoutingArc" value="wire"/>
+                <entry key="MainPowerArc" value="wire"/>
+                <entry key="VertRoutingArc" value="wire"/>
+              </map>
+            </node>
+            <node name="simulation">
+              <map>
+                <entry key="SpiceEngine" value="1"/>
+                <entry key="SpiceGlobalTreatment" value="1"/>
+                <entry key="SpiceHeaderCardInfo" value="N O N E "/>
+                <entry key="SpiceLevel" value="3"/>
+                <entry key="SpiceOutputFormat" value="RawSmart"/>
+                <entry key="SpiceOverwriteOutputFile" value="true"/>
+                <entry key="SpiceParasiticsLevel" value="1"/>
+                <entry key="SpiceRunChoice" value="2"/>
+                <entry key="SpiceRunProbe" value="false"/>
+                <entry key="SpiceRunProgram" value="C:\CYGELENG\scripts\start.bat"/>
+                <entry key="SpiceTrailerCardInfo" value="N O N E "/>
+                <entry key="cacheSpiceWritePwrGndInTopCell" value="false"/>
+                <entry key="SpiceRunDir" value=""/>
+                <entry key="SpiceUseRunDir" value="false"/>
+                <entry key="SpiceInputPlaces" value="false"/>
+                <entry key="SpiceUseCellParameters" value="true"/>
+                <entry key="SpiceShortResistors" value="0"/>
+              </map>
+            </node>
+            <node name="user">
+              <map>
+                <entry key="AlignmentToGridVector" value="(20.0 10.0 0.5 0.05 *0.25)"/>
+                <entry key="BoundScripts" value="C:\CYGELENG\electric\Copy Keys SPM.bsh&#9;C:\CYGELENG\electric\Paste Keys SPM.bsh"/>
+                <entry key="ColorBackground" value="-16777216"/>
+                <entry key="ColorDefaultArtwork" value="16737792"/>
+                <entry key="ColorGrid" value="-10066330"/>
+                <entry key="ColorInstanceOutline" value="-16711681"/>
+                <entry key="ColorText" value="-3355444"/>
+                <entry key="ColorWaveformBackground" value="-10092442"/>
+                <entry key="DefaultExtendedForD-ActiveINrcmos" value="false"/>
+                <entry key="DefaultExtendedForD-TransistorINrcmos" value="false"/>
+                <entry key="DefaultExtendedForMetal-1INrcmos" value="false"/>
+                <entry key="DefaultExtendedForMetal-2INrcmos" value="false"/>
+                <entry key="DefaultExtendedForPolysiliconINrcmos" value="false"/>
+                <entry key="DefaultExtendedForS-ActiveINrcmos" value="false"/>
+                <entry key="DefaultExtendedForS-TransistorINrcmos" value="false"/>
+                <entry key="DefaultExtendedForSubstrate-ActiveINrcmos" value="false"/>
+                <entry key="DefaultExtendedForWell-ActiveINrcmos" value="false"/>
+                <entry key="DefaultWindowTab" value="1"/>
+                <entry key="DraggingMustEncloseObjects" value="true"/>
+                <entry key="MemorySize" value="0"/>
+                <entry key="PanningDistance" value="1"/>
+                <entry key="PermSize" value="0"/>
+                <entry key="RecentlyOpenedLibraries" value=""/>
+                <entry key="ToolbarIconFiles" value="Tools:Languages:Write Simulation Path|C:\CYGELENG\electric\Pics\WSP.png&#9;Tools:Simulation (Spice):Export Autotracing Scheme|C:\CYGELENG\electric\Pics\EAS.png&#9;Tools:Simulation (Spice):Write Spice Deck...|C:\CYGELENG\electric\Pics\CN.png&#9;Tools:Languages:Point To Point|C:\CYGELENG\electric\MT.png&#9;Tools:Languages:Make Trace|C:\CYGELENG\electric\Pics\MT.png&#9;Tools:Languages:Make Trace (beta)|C:\CYGELENG\electric\MT.png"/>
+                <entry key="ToolbarOrder" value="B=ButtonOpenLibrary|B=ButtonSaveLibrary||B=ButtonClickZoomWire|B=ButtonPan|B=ButtonZoom||B=ButtonPreferences||B=ButtonUndo|B=ButtonRedo||B=ButtonGoBack|B=ButtonGoForward||U=Tools:Languages:Write Simulation Path=U=C:\CYGELENG\electric\Pics\WSP.png|U=Tools:Simulation (Spice):Write Spice Deck...=U=C:\CYGELENG\electric\Pics\CN.png||U=Tools:Languages:Make Trace=U=C:\CYGELENG\electric\Pics\MT.png|U=Tools:Simulation (Spice):Export Autotracing Scheme=U=C:\CYGELENG\electric\Pics\EAS.png"/>
+                <entry key="UseTwoJVMs" value="false"/>
+                <entry key="WaveformAnalogPanelHeight" value="93"/>
+                <entry key="WindowLocation" value="-58.0,75.0 1292.0x1000.0"/>
+                <entry key="WorkingDirectory" value="C:\CYGELENG\electric"/>
+                <entry key="DefaultExtendedForwireINschematic" value="false"/>
+                <entry key="DefaultAngleForwireINschematic" value="90"/>
+                <entry key="PlayClickSoundsWhenCreatingArcs" value="false"/>
+                <entry key="ArcsAutoIncremented" value="false"/>
+                <entry key="DefaultFixedAngleForwireINschematic" value="false"/>
+                <entry key="DefaultSlidableForwireINschematic" value="true"/>
+                <entry key="HighlightConnectedObjects" value="true"/>
+                <entry key="ComponentMenuEntryForDiodeInschematic" value="Normal"/>
+                <entry key="ExtractCopiesExports" value="true"/>
+                <entry key="DisplayStyle" value="2"/>
+                <entry key="MaxUndoHistory" value="100"/>
+              </map>
+              <node name="dialogs">
+                <map>
+                  <entry key="GetInfoArc-bigger" value="true"/>
+                  <entry key="GetInfoNode-bigger" value="true"/>
+                  <entry key="GetInfoNode-buttonSelected" value="0"/>
+                </map>
+              </node>
+              <node name="menus">
+                <map>
+                  <entry key="MenuKeyBinding-Tools | Simulation (Spice) | Write Spice Deck..." value="ctrl alt D"/>
+                  <entry key="MenuKeyBinding-Edit | Mirror | Left &lt;-&gt; Right" value="ctrl F"/>
+                  <entry key="MenuKeyBinding-Edit | Cleanup Cell | Cleanup Pins" value="F8"/>
+                  <entry key="MenuKeyBinding-Window | Zoom Out" value="W"/>
+                  <entry key="MenuKeyBinding-Edit | Undo" value="ctrl Z"/>
+                  <entry key="MenuKeyBinding-Window | Zoom In" value="E"/>
+                  <entry key="MenuKeyBinding-Edit | Redo" value="ctrl shift Z"/>
+                  <entry key="MenuKeyBinding-Edit | Rotate | 90 Degrees Clockwise" value="ctrl R"/>
+                  <entry key="MenuKeyBinding-Edit | Properties | Object Properties..." value="ctrl I; Q"/>
+                  <entry key="MenuKeyBinding-Cell | Down Hierarchy | Down Hierarchy" value="ctrl D; 1"/>
+                  <entry key="MenuKeyBinding-Cell | Up Hierarchy | Up Hierarchy" value="ctrl U; 2"/>
+                  <entry key="MenuKeyBinding-Edit | Modes | Movement | Make Grid Larger" value=""/>
+				  <entry key="MenuKeyBinding-Shortcuts | Wire to M1" value=""/>
+				  <entry key="MenuKeyBinding-Shortcuts | Wire to M2" value=""/>
+				  <entry key="MenuKeyBinding-Shortcuts | Window Cycle" value=""/>
+				  <entry key="MenuKeyBinding-Window | Special Zoom | Focus on Highlighted" value=""/>
+                  <entry key="MenuKeyBinding-Window | Fill Window" value="F"/>
+                  <entry key="MenuKeyBinding-Window | Pan Left" value="NumPad-4"/>
+                  <entry key="MenuKeyBinding-Window | Pan Right" value="NumPad-6"/>
+                  <entry key="MenuKeyBinding-Window | Pan Up" value="NumPad-8"/>
+                  <entry key="MenuKeyBinding-Window | Pan Down" value="NumPad-2"/>
+                  <entry key="MenuKeyBinding-Export | Manipulate Exports..." value="Back Quote"/>
+                  <entry key="MenuKeyBinding-Tools | Languages | Change Net Colour" value="J"/>
+                  <entry key="MenuKeyBinding-Tools | Languages | Point To Point" value="K"/>
+                </map>
+              </node>
+              <node name="ui">
+                <map/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+</preferences>

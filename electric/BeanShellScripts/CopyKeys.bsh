@@ -1,0 +1,120 @@
+// BeanShell script for Electric VLSI Copy Keys for 5400TP035 (v.2.5final, Ivanov D.S., 2016)  
+
+import java.util.Iterator;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import com.sun.electric.tool.user;
+import com.sun.electric.database;
+import com.sun.electric.tool.Job; 
+import com.sun.electric.database.topology.Geometric;
+import com.sun.electric.database.topology.NodeInst;
+import com.sun.electric.database.topology.PortInst;
+import com.sun.electric.tool.UserInterfaceInitial;
+import com.sun.electric.technology.ArcProto;
+import com.sun.electric.technology.technologies.Generic;
+import com.sun.electric.technology.technologies.Schematics;
+import com.sun.electric.tool.user.Highlighter;
+
+import com.sun.electric.tool.user.ui.WindowFrame;
+import com.sun.electric.database.hierarchy.Cell;
+import com.sun.electric.database.hierarchy.HierarchyEnumerator;
+import com.sun.electric.database.hierarchy.Nodable;
+import com.sun.electric.database.prototype.NodeProto;
+import com.sun.electric.tool.Job; 
+import com.sun.electric.tool.user.Highlighter;
+import com.sun.electric.tool.user.ui.EditWindow;
+import com.sun.electric.database.network.Netlist;
+import com.sun.electric.database.network.Network;
+import com.sun.electric.database.network.NetworkTool;
+import com.sun.electric.database.topology.ArcInst;
+import com.sun.electric.database.variable.VarContext;
+import com.sun.electric.database.hierarchy.Library;
+import com.sun.electric.database.topology.NodeInst;
+import com.sun.electric.database.variable.ElectricObject;
+
+//// MODEL ////
+
+	public static void write(String fileName, String text) {
+		
+    File file = new File(fileName);
+ 
+    try {
+        if(!file.exists()){
+            file.createNewFile();
+        }
+ 
+        PrintWriter out = new PrintWriter(file.getAbsoluteFile());
+ 
+        try {
+            out.print(text);
+        } finally {
+            out.close();
+        }
+    } catch(IOException e) {
+        throw new RuntimeException(e);
+    }
+}
+	
+
+//// CONTROLLER ////	
+
+		// Return cell in given window
+		Cell curcell = Job.getUserInterface().getCurrentCell(); 
+		java.lang.String cellnam=curcell.getName();
+		
+		String writer = "";
+		int KeysCopied = 0;
+		
+		EditWindow wnd = EditWindow.needCurrent();
+		if (wnd == null) return;
+		Highlighter highlighter = wnd.getHighlighter();
+
+		List theNodes = new ArrayList();
+		theNodes = highlighter.getHighlightedNodes();
+		
+		private static String fileName = "c:\\CYGELENG\\electric\\CopyKeys.info";
+		
+		NodeInst current = theNodes.get(0);
+		
+		String NodeName = current.getName();
+		
+		int expnum=current.getNumPortInsts();
+		int i=0;
+		try {
+			while(i<expnum) {
+				PortInst z = current.getPortInst(i);
+				String myString = z.toString();
+				String[] parts1 = myString.split("].");
+				name = parts1[1];
+				if((name.substring(0,1).equals("n"))||(name.substring(0,1).equals("o"))||(name.substring(0,1).equals("p"))||(name.substring(0,1).equals("q"))||(name.substring(0,1).equals("r"))||(name.substring(0,1).equals("s"))||(name.substring(0,1).equals("t"))||(name.substring(0,1).equals("u"))||(name.substring(0,1).equals("v"))||(name.substring(0,1).equals("w"))) {
+					if(z.hasConnections()) {
+						writer = writer+name+"\n";
+					}
+				}
+				i++;
+			}
+		}	catch (Exception e) {
+					KeysCopied=KeysCopied+2;	
+				}
+		
+		writer=writer+NodeName;
+		
+		if(KeysCopied<2) {
+			System.out.println("Keys Copied!");
+		}		
+		
+		write(fileName,writer);	
+		highlighter.clear();
+		highlighter.finished();
+			
+		
+			
+			

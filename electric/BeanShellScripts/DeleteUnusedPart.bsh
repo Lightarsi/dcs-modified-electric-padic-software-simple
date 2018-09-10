@@ -1,0 +1,90 @@
+// BeanShell script for Electric VLSI optimization for 5400TP035 (v.3.0 final, Ivanov D.S., 2017)  
+
+import java.util.Iterator;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import com.sun.electric.tool.user;
+import com.sun.electric.database;
+import com.sun.electric.tool.Job; 
+import com.sun.electric.database.topology.Geometric;
+import com.sun.electric.database.topology.NodeInst;
+import com.sun.electric.database.topology.PortInst;
+import com.sun.electric.tool.UserInterfaceInitial;
+import com.sun.electric.technology.ArcProto;
+import com.sun.electric.technology.technologies.Generic;
+import com.sun.electric.technology.technologies.Schematics;
+import com.sun.electric.tool.user.Highlighter;
+import com.sun.electric.tool.user.CircuitChangeJobs;
+import com.sun.electric.database.EditingPreferences;
+
+import com.sun.electric.tool.user.ui.WindowFrame;
+import com.sun.electric.database.hierarchy.Cell;
+import com.sun.electric.database.hierarchy.HierarchyEnumerator;
+import com.sun.electric.database.hierarchy.Nodable;
+import com.sun.electric.database.prototype.NodeProto;
+import com.sun.electric.tool.Job; 
+import com.sun.electric.tool.user.Highlighter;
+import com.sun.electric.tool.user.ui.EditWindow;
+import com.sun.electric.database.network.Netlist;
+import com.sun.electric.database.network.Network;
+import com.sun.electric.database.network.NetworkTool;
+import com.sun.electric.database.topology.ArcInst;
+import com.sun.electric.database.variable.VarContext;
+import com.sun.electric.database.hierarchy.Library;
+import com.sun.electric.database.topology.NodeInst;
+import com.sun.electric.database.variable.ElectricObject;
+
+//// MODEL ////
+
+
+
+//// CONTROLLER ////	
+
+		// Return cell in given window
+		Cell curcell = Job.getUserInterface().getCurrentCell(); 
+		java.lang.String cellnam=curcell.getName();
+		
+		ArrayList deleteList = new ArrayList();
+		
+		NodeInst z;
+		Iterator itr = curcell.getNodes();
+		while(itr.hasNext()){
+			NodeInst z = itr.next();
+			String xname = z.getName();
+			if((xname.substring(0,3).equals("CAU"))||(xname.substring(0,3).equals("PAU"))||(xname.substring(0,3).equals("PAD"))||(xname.substring(0,3).equals("PPC"))||(xname.substring(0,3).equals("CB<"))||(xname.substring(0,3).equals("SPM"))) {
+				Iterator itr2 = z.getPortInsts();
+				int check=0;
+				while(itr2.hasNext()) {
+					PortInst port = itr2.next();
+					String myString = port.toString();
+					String[] parts1 = myString.split("].");
+					name = parts1[1];
+					if((name.substring(0,1).equals("n"))||(name.substring(0,1).equals("o"))||(name.substring(0,1).equals("p"))||(name.substring(0,1).equals("q"))||(name.substring(0,1).equals("r"))||
+						(name.substring(0,1).equals("s"))||(name.substring(0,1).equals("t"))||(name.substring(0,1).equals("u"))||(name.substring(0,1).equals("v"))||(name.substring(0,1).equals("w"))) {
+						if(port.hasConnections()) {
+							check++;
+							break;
+						}
+					}
+				}
+				if(check==0) {
+					z.clearLocked();
+					deleteList.add(z);
+				}
+			}
+		}
+		
+				
+		EditingPreferences ep = EditingPreferences.getInstance();
+		Set stuffToHighlight = new HashSet();
+		com.sun.electric.tool.user.CircuitChangeJobs.eraseObjectsInList(curcell, deleteList, true, stuffToHighlight, ep);
+			
+			

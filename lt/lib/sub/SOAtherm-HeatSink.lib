@@ -1,0 +1,23 @@
+* Copyright (c) 2016 Linear Technology Corporation.  All rights reserved.
+* Author: Dan Eddleman
+*
+*SOAtherm Heat Sink Model
+***************************************************************
+
+.subckt copper Tc Tinterface Tfin 
+R1 Tfin Ambient {Rtheta}
+V1 Ambient 0 {Tambient}
+R2 Tinterface Tc {Rinterface}
+O§HeatSink Tinterface 0 Tfin 0 Copper
+.model Copper LTRA(len={Volume_mm3/Area_Contact_mm2} R={2.5/Area_Contact_mm2} L=0 C={400*8.96e-6*Area_Contact_mm2})
+.param Tambient=85 Depth_mm=10 Area_Contact_mm2=100 Rtheta=10 Rinterface={100/Area_Contact_mm2}
+.ends copper
+
+.subckt aluminum Tc Tinterface Tfin 
+R1 Tfin Ambient {Rtheta}
+V1 Ambient 0 {Tambient}
+R2 Tinterface Tc {Rinterface}
+O§HeatSink Tinterface 0 Tfin 0 Aluminum
+.model Aluminum LTRA(len={Volume_mm3/Area_Contact_mm2} R={1/(0.22*Area_Contact_mm2)} L=0 C={896*2.7e-6*Area_Contact_mm2})
+.param Tambient=85 Depth_mm=10 Area_Contact_mm2=100 Rtheta=10 Rinterface={100/Area_Contact_mm2}
+.ends aluminum
