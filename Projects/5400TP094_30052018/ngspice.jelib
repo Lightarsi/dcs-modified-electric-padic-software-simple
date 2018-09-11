@@ -5,7 +5,7 @@ Hngspice|9.07
 Vicon|ic
 
 # Cell 5400TP094_core;1{ic}
-C5400TP094_core;1{ic}||artwork|1233229828125|1532612098548|E|ATTR_rshunt(D6G5;HNPX1.25;Y-5.5;)S10G|ATTR_tstep(D6G5;HNPX1.25;Y3.75;)S100n|ATTR_tstop(D6G5;HNPX1.25;Y-1;)S4u|ATTR_SPICE_template(A20;D6NTX36.25;Y1.75;)S[.options filetype=ascii,.tran $(tstep) $(tstop),".include \"C:/dcsELE/Spice64/models/SOIMOD018.tec\"",.global VDDA! VSSA!,.options method=gear reltol=0.01 itl4=500 altinit=10 RSHUNT=$(rshunt) cshunt=1e-15 abstol=5u chgtol=2p vntol=5u trtol=7]
+C5400TP094_core;1{ic}||artwork|1233229828125|1536572240519|E|ATTR_rshunt(D6G5;HNPX1.25;Y-5.5;)S10G|ATTR_tstep(D6G5;HNPX1.25;Y3.75;)S100n|ATTR_tstop(D6G5;HNPX1.25;Y-1;)S4u|ATTR_SPICE_template(A20;D6NTX36.25;Y1.75;)S[.options filetype=ascii,.tran $(tstep) $(tstop),".include \"C:/IvanovFolder/PADIC/Spice64/models/soimod018.tec\"",.global VDDA! VSSA!,.options method=gear reltol=0.01 itl4=500 altinit=10 RSHUNT=$(rshunt) cshunt=1e-15 abstol=5u chgtol=2p vntol=5u trtol=7]
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NArrow|art@23||-10|0|20|20||
 Ngeneric:Invisible-Pin|pin@9||1.25|8.5|||||ART_message(D6G5;)Stran_control

@@ -1,0 +1,30 @@
+*
+*.subckt cpoly_n PLUS MINUS
+*+ l=800e-6 w=25e-6 
+*+ cox         = 9.619e-3
+*+ dw          = -1.10e-8
+*+ dl          = -1.10e-8
+*+ tbox         = 300e-09
+*+ area         = (w-dw)*(l-dl)
+*+ cbox         = epsi_ox*area/tbox
+*+ epsi_ox      = 3.45313e-11      // (F/m)
+*+ epsi_si      = 1.05364e-10   // (F/m)
+*+ q            = 1.60219e-19   // (Coulomb)
+*+ kb           = 1.3806226e-23 // (J.s) 
+*+ tref         = 27
+*+ sub          = -1
+*+ sl1          = 0.3875
+*+ sl2          = 6.188e-03
+*+ eps          = 1.739e-06
+*+ mexp         = 0.2625
+*+ vsm          = 0.1985
+*+ nsub         = 2.847e23
+*+ vfb          = 0.703
+*Cc  (PLUS MINUS PLUS MINUS)  vccapacitor area=area sub=sub nsub=nsub vfb=vfb vsm=vsm cox=cox sl1=sl1 sl2=sl2 mexp=mexp eps=eps mult=1
+*Cbox (PLUS MINUS) capacitor c=cbox
+*//---------------------------------------------------------------------
+
+*ends cpoly_n 
+.model cpoly_n C
+
+*

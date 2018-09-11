@@ -89,7 +89,7 @@ Ez||D5G1;|pin@0||U
 X
 
 # Cell iopin;1{ic}
-Ciopin;1{ic}||artwork|1233491366000|1233875419449|E|ATTR_SPICE_template(D5G0.25;NTY-1;)S*
+Ciopin;1{ic}||artwork|1233491366000|1536582067479|E
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NClosed-Polygon|art@1||0|0|1.4|0.9|||trace()V[0.7/0,0.25/0.45,-0.25/0.45,-0.7/0,-0.25/-0.45,0.25/-0.45]
 Ngeneric:Invisible-Pin|pin@0||0|0|1|1||

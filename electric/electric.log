@@ -1,0 +1,481 @@
+Electric Version 9.07
+--------------- 0 --------------
+  Tue Sep 11 10:53:45 MSK 2018
+Menu Activated: /C:/IvanovFolder/PADIC/Projects/5400TP094_30052018/5400TP094.jelib
+--------------- 1 --------------
+  Tue Sep 11 10:53:47 MSK 2018
+Menu Activated: Window | Zoom Out
+--------------- 2 --------------
+  Tue Sep 11 10:53:47 MSK 2018
+ProcessKeyBinding 400 when=1536652427764 modifiers=0 code=0 char=77(w) false false
+--------------- 3 --------------
+  Tue Sep 11 10:53:47 MSK 2018
+Menu Activated: Window | Zoom Out
+--------------- 4 --------------
+  Tue Sep 11 10:53:47 MSK 2018
+ProcessKeyBinding 400 when=1536652427959 modifiers=0 code=0 char=77(w) false false
+--------------- 5 --------------
+  Tue Sep 11 10:53:48 MSK 2018
+ProcessKeyBinding 401 when=1536652428911 modifiers=80 code=11 char=ffff false false
+--------------- 6 --------------
+  Tue Sep 11 10:53:49 MSK 2018
+Menu Activated: Edit | Copy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': 'CB{ic}[CB@0].mAd441_1'
+--------------- 7 --------------
+  Tue Sep 11 10:53:49 MSK 2018
+ProcessKeyBinding 400 when=1536652429047 modifiers=80 code=0 char=3 false false
+--------------- 8 --------------
+  Tue Sep 11 10:53:49 MSK 2018
+ProcessKeyBinding 402 when=1536652429131 modifiers=0 code=11 char=ffff false false
+--------------- 9 --------------
+  Tue Sep 11 10:53:49 MSK 2018
+ProcessKeyBinding 401 when=1536652429313 modifiers=80 code=11 char=ffff false false
+--------------- 10 --------------
+  Tue Sep 11 10:53:49 MSK 2018
+Menu Activated: Edit | Paste
+--------------- 11 --------------
+  Tue Sep 11 10:53:49 MSK 2018
+ProcessKeyBinding 400 when=1536652429453 modifiers=80 code=0 char=16 false false
+--------------- 12 --------------
+  Tue Sep 11 10:53:49 MSK 2018
+ProcessKeyBinding 402 when=1536652429635 modifiers=0 code=11 char=ffff false false
+--------------- 13 --------------
+  Tue Sep 11 10:53:52 MSK 2018
+ProcessKeyBinding 401 when=1536652432550 modifiers=80 code=11 char=ffff false false
+--------------- 14 --------------
+  Tue Sep 11 10:53:52 MSK 2018
+Menu Activated: Edit | Copy
+Currently highlighted: 
+    Parameter 'C1' on node CB{ic}['CB@0']
+    Parameter 'C1' on node CB{ic}['CB@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@1']
+--------------- 15 --------------
+  Tue Sep 11 10:53:52 MSK 2018
+ProcessKeyBinding 400 when=1536652432683 modifiers=80 code=0 char=3 false false
+--------------- 16 --------------
+  Tue Sep 11 10:53:52 MSK 2018
+ProcessKeyBinding 402 when=1536652432790 modifiers=0 code=11 char=ffff false false
+--------------- 17 --------------
+  Tue Sep 11 10:53:52 MSK 2018
+ProcessKeyBinding 401 when=1536652432916 modifiers=480 code=11 char=ffff false false
+--------------- 18 --------------
+  Tue Sep 11 10:53:53 MSK 2018
+Menu Activated: Edit | Paste
+--------------- 19 --------------
+  Tue Sep 11 10:53:53 MSK 2018
+ProcessKeyBinding 400 when=1536652433062 modifiers=80 code=0 char=16 false false
+--------------- 20 --------------
+  Tue Sep 11 10:53:53 MSK 2018
+ProcessKeyBinding 402 when=1536652433290 modifiers=0 code=11 char=ffff false false
+--------------- 21 --------------
+  Tue Sep 11 10:53:56 MSK 2018
+ProcessKeyBinding 401 when=1536652436175 modifiers=80 code=11 char=ffff false false
+--------------- 22 --------------
+  Tue Sep 11 10:53:56 MSK 2018
+Menu Activated: Edit | Copy
+Currently highlighted: 
+    Parameter 'C1' on node CB{ic}['CB@0']
+    Parameter 'C1' on node CB{ic}['CB@1']
+    Parameter 'C1' on node CB{ic}['CB@2']
+    Parameter 'C1' on node CB{ic}['CB@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@3']
+--------------- 23 --------------
+  Tue Sep 11 10:53:56 MSK 2018
+ProcessKeyBinding 400 when=1536652436320 modifiers=80 code=0 char=3 false false
+--------------- 24 --------------
+  Tue Sep 11 10:53:56 MSK 2018
+ProcessKeyBinding 402 when=1536652436426 modifiers=0 code=11 char=ffff false false
+--------------- 25 --------------
+  Tue Sep 11 10:53:56 MSK 2018
+ProcessKeyBinding 401 when=1536652436582 modifiers=80 code=11 char=ffff false false
+--------------- 26 --------------
+  Tue Sep 11 10:53:56 MSK 2018
+Menu Activated: Edit | Paste
+--------------- 27 --------------
+  Tue Sep 11 10:53:56 MSK 2018
+ProcessKeyBinding 400 when=1536652436898 modifiers=80 code=0 char=16 false false
+--------------- 28 --------------
+  Tue Sep 11 10:53:57 MSK 2018
+ProcessKeyBinding 402 when=1536652437023 modifiers=0 code=11 char=ffff false false
+--------------- 29 --------------
+  Tue Sep 11 10:54:00 MSK 2018
+ProcessKeyBinding 401 when=1536652440032 modifiers=80 code=11 char=ffff false false
+--------------- 30 --------------
+  Tue Sep 11 10:54:00 MSK 2018
+Menu Activated: Edit | Copy
+Currently highlighted: 
+    Parameter 'C1' on node CB{ic}['CB@4']
+    Parameter 'C1' on node CB{ic}['CB@5']
+    Parameter 'C1' on node CB{ic}['CB@6']
+    Parameter 'C1' on node CB{ic}['CB@7']
+    Parameter 'C1' on node CB{ic}['CB@3']
+    Parameter 'C1' on node CB{ic}['CB@2']
+    Parameter 'C1' on node CB{ic}['CB@1']
+    Parameter 'C1' on node CB{ic}['CB@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@5']
+--------------- 31 --------------
+  Tue Sep 11 10:54:00 MSK 2018
+ProcessKeyBinding 400 when=1536652440190 modifiers=80 code=0 char=3 false false
+--------------- 32 --------------
+  Tue Sep 11 10:54:00 MSK 2018
+ProcessKeyBinding 402 when=1536652440300 modifiers=0 code=11 char=ffff false false
+--------------- 33 --------------
+  Tue Sep 11 10:54:00 MSK 2018
+ProcessKeyBinding 401 when=1536652440579 modifiers=80 code=11 char=ffff false false
+--------------- 34 --------------
+  Tue Sep 11 10:54:00 MSK 2018
+ProcessKeyBinding 402 when=1536652440834 modifiers=0 code=11 char=ffff false false
+--------------- 35 --------------
+  Tue Sep 11 10:54:01 MSK 2018
+Menu Activated: Window | Zoom Out
+--------------- 36 --------------
+  Tue Sep 11 10:54:01 MSK 2018
+ProcessKeyBinding 400 when=1536652441183 modifiers=0 code=0 char=77(w) false false
+--------------- 37 --------------
+  Tue Sep 11 10:54:01 MSK 2018
+ProcessKeyBinding 401 when=1536652441680 modifiers=80 code=11 char=ffff false false
+--------------- 38 --------------
+  Tue Sep 11 10:54:01 MSK 2018
+Menu Activated: Edit | Paste
+--------------- 39 --------------
+  Tue Sep 11 10:54:01 MSK 2018
+ProcessKeyBinding 400 when=1536652441808 modifiers=80 code=0 char=16 false false
+--------------- 40 --------------
+  Tue Sep 11 10:54:01 MSK 2018
+ProcessKeyBinding 402 when=1536652441984 modifiers=0 code=11 char=ffff false false
+--------------- 41 --------------
+  Tue Sep 11 10:54:04 MSK 2018
+ProcessKeyBinding 401 when=1536652444883 modifiers=80 code=11 char=ffff false false
+--------------- 42 --------------
+  Tue Sep 11 10:54:05 MSK 2018
+Menu Activated: Edit | Copy
+Currently highlighted: 
+    Parameter 'C1' on node CB{ic}['CB@4']
+    Parameter 'C1' on node CB{ic}['CB@5']
+    Parameter 'C1' on node CB{ic}['CB@6']
+    Parameter 'C1' on node CB{ic}['CB@7']
+    Parameter 'C1' on node CB{ic}['CB@8']
+    Parameter 'C1' on node CB{ic}['CB@9']
+    Parameter 'C1' on node CB{ic}['CB@10']
+    Parameter 'C1' on node CB{ic}['CB@11']
+    Parameter 'C1' on node CB{ic}['CB@12']
+    Parameter 'C1' on node CB{ic}['CB@13']
+    Parameter 'C1' on node CB{ic}['CB@14']
+    Parameter 'C1' on node CB{ic}['CB@15']
+    Parameter 'C1' on node CB{ic}['CB@3']
+    Parameter 'C1' on node CB{ic}['CB@2']
+    Parameter 'C1' on node CB{ic}['CB@1']
+    Parameter 'C1' on node CB{ic}['CB@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@12']
+--------------- 43 --------------
+  Tue Sep 11 10:54:05 MSK 2018
+ProcessKeyBinding 400 when=1536652445011 modifiers=80 code=0 char=3 false false
+--------------- 44 --------------
+  Tue Sep 11 10:54:05 MSK 2018
+ProcessKeyBinding 402 when=1536652445123 modifiers=0 code=11 char=ffff false false
+--------------- 45 --------------
+  Tue Sep 11 10:54:05 MSK 2018
+ProcessKeyBinding 401 when=1536652445245 modifiers=80 code=11 char=ffff false false
+--------------- 46 --------------
+  Tue Sep 11 10:54:05 MSK 2018
+Menu Activated: Edit | Paste
+Currently highlighted: 
+    Parameter 'C1' on node CB{ic}['CB@4']
+    Parameter 'C1' on node CB{ic}['CB@5']
+    Parameter 'C1' on node CB{ic}['CB@6']
+    Parameter 'C1' on node CB{ic}['CB@7']
+    Parameter 'C1' on node CB{ic}['CB@8']
+    Parameter 'C1' on node CB{ic}['CB@9']
+    Parameter 'C1' on node CB{ic}['CB@10']
+    Parameter 'C1' on node CB{ic}['CB@11']
+    Parameter 'C1' on node CB{ic}['CB@12']
+    Parameter 'C1' on node CB{ic}['CB@13']
+    Parameter 'C1' on node CB{ic}['CB@14']
+    Parameter 'C1' on node CB{ic}['CB@15']
+    Parameter 'C1' on node CB{ic}['CB@3']
+    Parameter 'C1' on node CB{ic}['CB@2']
+    Parameter 'C1' on node CB{ic}['CB@1']
+    Parameter 'C1' on node CB{ic}['CB@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@12']
+--------------- 47 --------------
+  Tue Sep 11 10:54:05 MSK 2018
+ProcessKeyBinding 400 when=1536652445364 modifiers=80 code=0 char=16 false false
+--------------- 48 --------------
+  Tue Sep 11 10:54:05 MSK 2018
+ProcessKeyBinding 402 when=1536652445515 modifiers=0 code=11 char=ffff false false
+--------------- 49 --------------
+  Tue Sep 11 10:54:05 MSK 2018
+ProcessKeyBinding 401 when=1536652445974 modifiers=80 code=11 char=ffff false false
+--------------- 50 --------------
+  Tue Sep 11 10:54:06 MSK 2018
+Menu Activated: Edit | Paste
+--------------- 51 --------------
+  Tue Sep 11 10:54:06 MSK 2018
+ProcessKeyBinding 400 when=1536652446055 modifiers=80 code=0 char=16 false false
+--------------- 52 --------------
+  Tue Sep 11 10:54:06 MSK 2018
+ProcessKeyBinding 402 when=1536652446216 modifiers=0 code=11 char=ffff false false
+--------------- 53 --------------
+  Tue Sep 11 10:54:10 MSK 2018
+ProcessKeyBinding 401 when=1536652450524 modifiers=80 code=11 char=ffff false false
+--------------- 54 --------------
+  Tue Sep 11 10:54:10 MSK 2018
+Menu Activated: Edit | Copy
+Currently highlighted: 
+    Parameter 'C1' on node CB{ic}['CB@20']
+    Parameter 'C1' on node CB{ic}['CB@7']
+    Parameter 'C1' on node CB{ic}['CB@6']
+    Parameter 'C1' on node CB{ic}['CB@5']
+    Parameter 'C1' on node CB{ic}['CB@21']
+    Parameter 'C1' on node CB{ic}['CB@22']
+    Parameter 'C1' on node CB{ic}['CB@23']
+    Parameter 'C1' on node CB{ic}['CB@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@5']
+--------------- 55 --------------
+  Tue Sep 11 10:54:10 MSK 2018
+ProcessKeyBinding 400 when=1536652450658 modifiers=80 code=0 char=3 false false
+--------------- 56 --------------
+  Tue Sep 11 10:54:10 MSK 2018
+ProcessKeyBinding 402 when=1536652450780 modifiers=0 code=11 char=ffff false false
+--------------- 57 --------------
+  Tue Sep 11 10:54:11 MSK 2018
+ProcessKeyBinding 401 when=1536652451480 modifiers=80 code=11 char=ffff false false
+--------------- 58 --------------
+  Tue Sep 11 10:54:11 MSK 2018
+Menu Activated: Edit | Paste
+--------------- 59 --------------
+  Tue Sep 11 10:54:11 MSK 2018
+ProcessKeyBinding 400 when=1536652451552 modifiers=80 code=0 char=16 false false
+--------------- 60 --------------
+  Tue Sep 11 10:54:11 MSK 2018
+ProcessKeyBinding 402 when=1536652451697 modifiers=0 code=11 char=ffff false false
+--------------- 61 --------------
+  Tue Sep 11 10:54:13 MSK 2018
+Menu Activated: Window | Zoom In
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@32']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@36']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@39']
+--------------- 62 --------------
+  Tue Sep 11 10:54:13 MSK 2018
+ProcessKeyBinding 400 when=1536652453407 modifiers=0 code=0 char=65(e) false false
+--------------- 63 --------------
+  Tue Sep 11 10:54:13 MSK 2018
+Menu Activated: Window | Zoom In
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@32']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@36']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@39']
+--------------- 64 --------------
+  Tue Sep 11 10:54:13 MSK 2018
+ProcessKeyBinding 400 when=1536652453995 modifiers=0 code=0 char=65(e) false false
+--------------- 65 --------------
+  Tue Sep 11 10:54:15 MSK 2018
+Menu Activated: Window | Zoom In
+--------------- 66 --------------
+  Tue Sep 11 10:54:15 MSK 2018
+ProcessKeyBinding 400 when=1536652455036 modifiers=0 code=0 char=65(e) false false
+--------------- 67 --------------
+  Tue Sep 11 10:54:16 MSK 2018
+Menu Activated: Window | Zoom In
+--------------- 68 --------------
+  Tue Sep 11 10:54:16 MSK 2018
+ProcessKeyBinding 400 when=1536652456400 modifiers=0 code=0 char=65(e) false false
+--------------- 69 --------------
+  Tue Sep 11 10:54:24 MSK 2018
+Menu Activated: Window | Zoom In
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': ngspice:vpulse{ic}['vpulse@0']
+--------------- 70 --------------
+  Tue Sep 11 10:54:24 MSK 2018
+ProcessKeyBinding 400 when=1536652464932 modifiers=0 code=0 char=65(e) false false
+--------------- 71 --------------
+  Tue Sep 11 10:54:29 MSK 2018
+Menu Activated: Edit | Move | Move Objects Right
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': 'ngspice:vpulse{ic}[vpulse@0].VSP'
+--------------- 72 --------------
+  Tue Sep 11 10:54:31 MSK 2018
+ProcessKeyBinding 401 when=1536652471359 modifiers=0 code=0 char=ffff false false
+--------------- 73 --------------
+  Tue Sep 11 10:54:31 MSK 2018
+ProcessKeyBinding 402 when=1536652471368 modifiers=0 code=0 char=ffff false false
+--------------- 74 --------------
+  Tue Sep 11 10:54:33 MSK 2018
+ProcessKeyBinding 401 when=1536652473758 modifiers=0 code=0 char=ffff false false
+--------------- 75 --------------
+  Tue Sep 11 10:54:33 MSK 2018
+ProcessKeyBinding 402 when=1536652473767 modifiers=0 code=0 char=ffff false false
+--------------- 76 --------------
+  Tue Sep 11 10:54:36 MSK 2018
+ProcessKeyBinding 401 when=1536652476274 modifiers=0 code=0 char=ffff false false
+--------------- 77 --------------
+  Tue Sep 11 10:54:36 MSK 2018
+ProcessKeyBinding 402 when=1536652476284 modifiers=0 code=0 char=ffff false false
+--------------- 78 --------------
+  Tue Sep 11 10:54:36 MSK 2018
+ProcessKeyBinding 401 when=1536652476757 modifiers=0 code=0 char=ffff false false
+--------------- 79 --------------
+  Tue Sep 11 10:54:36 MSK 2018
+ProcessKeyBinding 402 when=1536652476765 modifiers=0 code=0 char=ffff false false
+--------------- 80 --------------
+  Tue Sep 11 10:54:36 MSK 2018
+ProcessKeyBinding 401 when=1536652476992 modifiers=0 code=0 char=ffff false false
+--------------- 81 --------------
+  Tue Sep 11 10:54:37 MSK 2018
+ProcessKeyBinding 402 when=1536652477002 modifiers=0 code=0 char=ffff false false
+--------------- 82 --------------
+  Tue Sep 11 10:54:46 MSK 2018
+Menu Activated: Edit | Cleanup Cell | Cleanup Pins
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': 'Wire_Pin[pin@1].wire'
+--------------- 83 --------------
+  Tue Sep 11 10:54:50 MSK 2018
+Menu Activated: Window | Zoom In
+--------------- 84 --------------
+  Tue Sep 11 10:54:50 MSK 2018
+ProcessKeyBinding 400 when=1536652490227 modifiers=0 code=0 char=65(e) false false
+--------------- 85 --------------
+  Tue Sep 11 10:54:52 MSK 2018
+ProcessKeyBinding 401 when=1536652492472 modifiers=0 code=30 char=30(0) false true
+--------------- 86 --------------
+  Tue Sep 11 10:54:52 MSK 2018
+ProcessKeyBinding 402 when=1536652492596 modifiers=0 code=30 char=30(0) false true
+--------------- 87 --------------
+  Tue Sep 11 10:54:54 MSK 2018
+ProcessKeyBinding 401 when=1536652494728 modifiers=0 code=35 char=35(5) false true
+--------------- 88 --------------
+  Tue Sep 11 10:54:54 MSK 2018
+ProcessKeyBinding 402 when=1536652494858 modifiers=0 code=35 char=35(5) false true
+--------------- 89 --------------
+  Tue Sep 11 10:54:56 MSK 2018
+ProcessKeyBinding 401 when=1536652496449 modifiers=0 code=31 char=31(1) false true
+--------------- 90 --------------
+  Tue Sep 11 10:54:56 MSK 2018
+ProcessKeyBinding 402 when=1536652496592 modifiers=0 code=31 char=31(1) false true
+--------------- 91 --------------
+  Tue Sep 11 10:54:56 MSK 2018
+ProcessKeyBinding 401 when=1536652496680 modifiers=0 code=30 char=30(0) false true
+--------------- 92 --------------
+  Tue Sep 11 10:54:56 MSK 2018
+ProcessKeyBinding 402 when=1536652496797 modifiers=0 code=30 char=30(0) false true
+--------------- 93 --------------
+  Tue Sep 11 10:54:56 MSK 2018
+ProcessKeyBinding 401 when=1536652496845 modifiers=0 code=30 char=30(0) false true
+--------------- 94 --------------
+  Tue Sep 11 10:54:56 MSK 2018
+ProcessKeyBinding 402 when=1536652496977 modifiers=0 code=30 char=30(0) false true
+--------------- 95 --------------
+  Tue Sep 11 10:54:57 MSK 2018
+ProcessKeyBinding 401 when=1536652497109 modifiers=0 code=50 char=70(p) false true
+--------------- 96 --------------
+  Tue Sep 11 10:54:57 MSK 2018
+ProcessKeyBinding 402 when=1536652497240 modifiers=0 code=50 char=70(p) false true
+--------------- 97 --------------
+  Tue Sep 11 10:54:59 MSK 2018
+ProcessKeyBinding 401 when=1536652499553 modifiers=0 code=31 char=31(1) false true
+--------------- 98 --------------
+  Tue Sep 11 10:54:59 MSK 2018
+ProcessKeyBinding 402 when=1536652499707 modifiers=0 code=31 char=31(1) false true
+--------------- 99 --------------
+  Tue Sep 11 10:54:59 MSK 2018
+ProcessKeyBinding 401 when=1536652499866 modifiers=0 code=30 char=30(0) false true
+--------------- 100 --------------
+  Tue Sep 11 10:54:59 MSK 2018
+ProcessKeyBinding 402 when=1536652499987 modifiers=0 code=30 char=30(0) false true
+--------------- 101 --------------
+  Tue Sep 11 10:55:00 MSK 2018
+ProcessKeyBinding 401 when=1536652500044 modifiers=0 code=30 char=30(0) false true
+--------------- 102 --------------
+  Tue Sep 11 10:55:00 MSK 2018
+ProcessKeyBinding 402 when=1536652500166 modifiers=0 code=30 char=30(0) false true
+--------------- 103 --------------
+  Tue Sep 11 10:55:00 MSK 2018
+ProcessKeyBinding 401 when=1536652500231 modifiers=0 code=50 char=70(p) false true
+--------------- 104 --------------
+  Tue Sep 11 10:55:00 MSK 2018
+ProcessKeyBinding 402 when=1536652500356 modifiers=0 code=50 char=70(p) false true
+--------------- 105 --------------
+  Tue Sep 11 10:55:02 MSK 2018
+ProcessKeyBinding 401 when=1536652502755 modifiers=0 code=31 char=31(1) false true
+--------------- 106 --------------
+  Tue Sep 11 10:55:02 MSK 2018
+ProcessKeyBinding 402 when=1536652502913 modifiers=0 code=31 char=31(1) false true
+--------------- 107 --------------
+  Tue Sep 11 10:55:03 MSK 2018
+ProcessKeyBinding 401 when=1536652503061 modifiers=0 code=30 char=30(0) false true
+--------------- 108 --------------
+  Tue Sep 11 10:55:03 MSK 2018
+ProcessKeyBinding 402 when=1536652503168 modifiers=0 code=30 char=30(0) false true
+--------------- 109 --------------
+  Tue Sep 11 10:55:03 MSK 2018
+ProcessKeyBinding 401 when=1536652503211 modifiers=0 code=30 char=30(0) false true
+--------------- 110 --------------
+  Tue Sep 11 10:55:03 MSK 2018
+ProcessKeyBinding 402 when=1536652503325 modifiers=0 code=30 char=30(0) false true
+--------------- 111 --------------
+  Tue Sep 11 10:55:03 MSK 2018
+ProcessKeyBinding 401 when=1536652503394 modifiers=0 code=50 char=70(p) false true
+--------------- 112 --------------
+  Tue Sep 11 10:55:03 MSK 2018
+ProcessKeyBinding 402 when=1536652503501 modifiers=0 code=50 char=70(p) false true
+--------------- 11

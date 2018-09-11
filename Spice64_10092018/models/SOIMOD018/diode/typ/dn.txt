@@ -1,0 +1,67 @@
+*
+.subckt dn PLUS MINUS 
++ w=1E-05 dw=-3E-07 weff={w-dw} t=9E-08 area = {weff*t} rs=4.082E-13
+*----------------------------------------------------------------------
+r1 PLUS  1   r = {rs/area}  tc1 = 0.0004286  
+d1 2  MINUS  dmain area = area  
+d2 1  2  dsat area = area  
+*d3 (2 MINUS) dlow  area=area
+d4 MINUS 1 drev 
+*----------------------------------------------------------------------
+
+.model dmain D 
++ level = 1  
+*+ allow_scaling = yes  
++ is = 2.932E-07  
++ xti = 4.818  
++ n = 1.049  
++ cjo = 0.003385  
++ cta = 0.0002411  
++ m = 0.1  
++ vj = 0.7  
++ pta = 0.001395  
++ fc = 0.5  
++ eg = 1.059  
++ tt = 1E-13  
++ bv = 13  
++ ibv = 1E-07  
++ tnom = 27  
++ tlevc = 1  
++ imax = 1E+40  
++ minr = 1E-20  
+
+.model dlow D 
++ level = 1  
+*+ allow_scaling = yes  
++ is = 1  
++ n = 1  
++ eg = 1.1  
++ tnom = 27  
++ imax = 1E+40  
++ minr = 1E-20  
+
+.model dsat D 
++ level = 1  
+*+ allow_scaling = yes  
++ is = 1.66E+10  
++ n = 14  
++ xti = 3  
++ cjo = 0.1  
++ eg = 1.1  
++ tnom = 27  
++ imax = 1E+40  
++ minr = 1E-20  
+
+.model drev D 
++ level = 1  
+*+ allow_scaling = yes  
++ is = 1.293E-12  
++ n = 81.52  
++ xti = 0.5  
++ eg = 15  
++ tnom = 27  
++ imax = 1E+40  
++ minr = 1E-10  
+
+.ends dn
+

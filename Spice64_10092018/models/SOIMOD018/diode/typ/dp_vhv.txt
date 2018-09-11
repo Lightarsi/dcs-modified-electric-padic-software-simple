@@ -1,0 +1,52 @@
+*
+.subckt dp_vhv PLUS MINUS
++ w=1E-05 dw=0 weff={w-dw} t=9E-08 area = {weff*t} rs=4.599E-12
+*----------------------------------------------------------------------
+r1 PLUS 1 r = {rs/area}  tc1 = -0.002648  
+d1 {2 MINUS} dmain area = area  
+d2 {1 2} dsat area = area  
+//d3 (2 MINUS) dlow  area=area
+*----------------------------------------------------------------------
+.model dmain D 
++ level = 1  
++ is = 1.379E-07  
++ xti = 3.724  
++ n = 1.011  
++ cjo = 0.001626  
++ cta = 0.0008061  
++ m = 0.4385  
++ vj = 0.9031  
++ pta = 0.001604  
++ fc = 0.5  
++ eg = 1.059  
++ tt = 1E-13  
++ bv = 8  
++ ibv = 0.001  
++ nz = 1  
++ tnom = 27  
++ tlevc = 1  
++ imax = 1E+40  
++ minr = 1E-20  
+
+.model dlow D
++ level = 1  
++ is = 1E-06  
++ n = 2  
++ eg = 1.1  
++ tnom = 27  
++ imax = 1E+40  
++ minr = 1E-20  
+
+.model dsat D 
++ level = 1  
++ is = 2.071E+09  
++ n = 2.073  
++ xti = 1.024E-08  
++ cjo = 0.1  
++ eg = 0.1718  
++ tnom = 27  
++ imax = 1E+40  
++ minr = 1E-20  
+
+.ends dp_vhv
+

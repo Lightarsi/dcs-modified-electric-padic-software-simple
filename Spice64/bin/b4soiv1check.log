@@ -1,5 +1,0 @@
-B4SOIV3 Parameter Check
-Model = nsoi_h_vhv
-W = 5.2e-07, L = 5e-07
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.

@@ -1,0 +1,51 @@
+*
+.subckt dn_vhv PLUS MINUS
++ w=1E-05 dw=0 weff={w-dw} t=9E-08 area = {weff*t} rs=4.92E-12
+*----------------------------------------------------------------------
+r1 PLUS 1 resistor r = {rs/area}  tc1 = 0.0004286  
+d1 2  MINUS dmain area = area  
+d2 1 2 dsat area = area  
+*//d3 (2 MINUS) dlow  area=area
+*----------------------------------------------------------------------
+.model dmain D 
++ level = 1  
++ is = 1.847E-07  
++ xti = 3.724  
++ n = 1.02  
++ cjo = 0.00152  
++ cta = 0.0005501  
++ m = 0.8777  
++ vj = 1.66  
++ pta = 0.001218  
++ fc = 0.5  
++ eg = 1.059  
++ tt = 1E-13  
++ bv = 8  
++ ibv = 0.001  
++ nz = 1  
++ tnom = 27  
++ tlevc = 1  
++ imax = 1E+40  
++ minr = 1E-20  
+
+.model dlow D 
++ level = 1  
++ is = 1E-06  
++ n = 2  
++ eg = 1.1  
++ tnom = 27  
++ imax = 1E+40  
++ minr = 1E-20  
+
+.model dsat D 
++ level = 1  
++ is = 2.041E+09  
++ n = 2.158  
++ xti = 0.1001  
++ cjo = 0.1  
++ eg = 0.2559  
++ tnom = 27  
++ imax = 1E+40  
++ minr = 1E-20  
+.ends dn_vhv
+

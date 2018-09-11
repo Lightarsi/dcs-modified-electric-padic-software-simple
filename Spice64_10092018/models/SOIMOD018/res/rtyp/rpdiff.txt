@@ -1,0 +1,47 @@
+*$Id: rpdiff.scs 125 2014-12-17 15:11:15Z apotupchik $ 
+* ----------------------------------------------------------------------
+************* Mikron ******** MODEL PARAMETERS ***************************
+* ----------------------------------------------------------------------
+* Simulator : spectre
+* Device    : rpdiff
+* Model     : subckt Verilog A
+* Process   : SOI_0.18 1.8V
+* Revision  : 2013-11-18
+* ----------------------------------------------------------------------
+*                        RTYP MEAN CONDITION
+* ----------------------------------------------------------------------
+
+*simulator lang=spectre
+
+*subckt rpdiff (PLUS MINUS)
+*  parameters w=1e-06 l=1e-06
+*+ rsh = 162
+*+ rsc = 2
+*+ rhi = 0
+*+ rhs = 6
+*+ lhs = 0.2e-6
+*//
+*+ wcon= 0.24e-6
+*+ dcon= 0.32e-6
+*+ ocon= 0.02e-6
+*+ dw  = 7.893e-12
+*+ dl  = 0.0e-9
+*//
+*+ nc = (int((w - 2.0*ocon + dcon)/(wcon + dcon)))
+*+ rhead = (rsc/nc + (rhs*lhs + rhi)/(w - dw))
+*//
+*+ trise=0
+*+ tc1 = 1.44e-3
+*+ tc2 = 4.72e-7
+*//
+*+ vc1r = 4.798e-04
+*+ vc2r = 3.727e-05
+*//
+*rh1 (PLUS 1) resistor r=rhead tc1=tc1 tc2=tc2 trise=trise  
+*rbody (1 2) vcresistor  w=w l=l  rsh=rsh tc1r=tc1 tc2r=tc2 vc1r=vc1r vc2r=vc2r dw=dw dl=dl mult=1
+*rh2 (2 MINUS) resistor r=rhead tc1=tc1 tc2=tc2 trise=trise
+*ends rpdiff
+
+.model rpdiff R
+
+*
