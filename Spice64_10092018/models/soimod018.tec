@@ -1,6 +1,0 @@
-*
-.include "C:/IvanovFolder/PADIC/Spice64/models/SOIMOD018/cap/cmim5.txt"
-.include "C:/IvanovFolder/PADIC/Spice64/models/SOIMOD018/mosfet/nmos_h_vhv.txt"
-.include "C:/IvanovFolder/PADIC/Spice64/models/SOIMOD018/mosfet/pmos_h_vhv.txt"
-.include "C:/IvanovFolder/PADIC/Spice64/models/SOIMOD018/res/rnpoly.txt"
-*

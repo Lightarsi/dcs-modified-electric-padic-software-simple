@@ -1,481 +1,927 @@
 Electric Version 9.07
 --------------- 0 --------------
-  Tue Sep 11 10:53:45 MSK 2018
+  Sat Sep 15 12:42:48 MSK 2018
 Menu Activated: /C:/IvanovFolder/PADIC/Projects/5400TP094_30052018/5400TP094.jelib
 --------------- 1 --------------
-  Tue Sep 11 10:53:47 MSK 2018
-Menu Activated: Window | Zoom Out
+  Sat Sep 15 12:42:54 MSK 2018
+Menu Activated: Window | Zoom In
 --------------- 2 --------------
-  Tue Sep 11 10:53:47 MSK 2018
-ProcessKeyBinding 400 when=1536652427764 modifiers=0 code=0 char=77(w) false false
+  Sat Sep 15 12:42:54 MSK 2018
+ProcessKeyBinding 400 when=1537004574711 modifiers=0 code=0 char=443 false false
 --------------- 3 --------------
-  Tue Sep 11 10:53:47 MSK 2018
-Menu Activated: Window | Zoom Out
+  Sat Sep 15 12:42:54 MSK 2018
+Menu Activated: Window | Zoom In
 --------------- 4 --------------
-  Tue Sep 11 10:53:47 MSK 2018
-ProcessKeyBinding 400 when=1536652427959 modifiers=0 code=0 char=77(w) false false
+  Sat Sep 15 12:42:54 MSK 2018
+ProcessKeyBinding 400 when=1537004574862 modifiers=0 code=0 char=443 false false
 --------------- 5 --------------
-  Tue Sep 11 10:53:48 MSK 2018
-ProcessKeyBinding 401 when=1536652428911 modifiers=80 code=11 char=ffff false false
---------------- 6 --------------
-  Tue Sep 11 10:53:49 MSK 2018
-Menu Activated: Edit | Copy
-Currently highlighted: 
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': 'CB{ic}[CB@0].mAd441_1'
---------------- 7 --------------
-  Tue Sep 11 10:53:49 MSK 2018
-ProcessKeyBinding 400 when=1536652429047 modifiers=80 code=0 char=3 false false
---------------- 8 --------------
-  Tue Sep 11 10:53:49 MSK 2018
-ProcessKeyBinding 402 when=1536652429131 modifiers=0 code=11 char=ffff false false
---------------- 9 --------------
-  Tue Sep 11 10:53:49 MSK 2018
-ProcessKeyBinding 401 when=1536652429313 modifiers=80 code=11 char=ffff false false
---------------- 10 --------------
-  Tue Sep 11 10:53:49 MSK 2018
-Menu Activated: Edit | Paste
---------------- 11 --------------
-  Tue Sep 11 10:53:49 MSK 2018
-ProcessKeyBinding 400 when=1536652429453 modifiers=80 code=0 char=16 false false
---------------- 12 --------------
-  Tue Sep 11 10:53:49 MSK 2018
-ProcessKeyBinding 402 when=1536652429635 modifiers=0 code=11 char=ffff false false
---------------- 13 --------------
-  Tue Sep 11 10:53:52 MSK 2018
-ProcessKeyBinding 401 when=1536652432550 modifiers=80 code=11 char=ffff false false
---------------- 14 --------------
-  Tue Sep 11 10:53:52 MSK 2018
-Menu Activated: Edit | Copy
-Currently highlighted: 
-    Parameter 'C1' on node CB{ic}['CB@0']
-    Parameter 'C1' on node CB{ic}['CB@1']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@0']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@1']
---------------- 15 --------------
-  Tue Sep 11 10:53:52 MSK 2018
-ProcessKeyBinding 400 when=1536652432683 modifiers=80 code=0 char=3 false false
---------------- 16 --------------
-  Tue Sep 11 10:53:52 MSK 2018
-ProcessKeyBinding 402 when=1536652432790 modifiers=0 code=11 char=ffff false false
---------------- 17 --------------
-  Tue Sep 11 10:53:52 MSK 2018
-ProcessKeyBinding 401 when=1536652432916 modifiers=480 code=11 char=ffff false false
---------------- 18 --------------
-  Tue Sep 11 10:53:53 MSK 2018
-Menu Activated: Edit | Paste
---------------- 19 --------------
-  Tue Sep 11 10:53:53 MSK 2018
-ProcessKeyBinding 400 when=1536652433062 modifiers=80 code=0 char=16 false false
---------------- 20 --------------
-  Tue Sep 11 10:53:53 MSK 2018
-ProcessKeyBinding 402 when=1536652433290 modifiers=0 code=11 char=ffff false false
---------------- 21 --------------
-  Tue Sep 11 10:53:56 MSK 2018
-ProcessKeyBinding 401 when=1536652436175 modifiers=80 code=11 char=ffff false false
---------------- 22 --------------
-  Tue Sep 11 10:53:56 MSK 2018
-Menu Activated: Edit | Copy
-Currently highlighted: 
-    Parameter 'C1' on node CB{ic}['CB@0']
-    Parameter 'C1' on node CB{ic}['CB@1']
-    Parameter 'C1' on node CB{ic}['CB@2']
-    Parameter 'C1' on node CB{ic}['CB@3']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@0']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@1']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@2']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@3']
---------------- 23 --------------
-  Tue Sep 11 10:53:56 MSK 2018
-ProcessKeyBinding 400 when=1536652436320 modifiers=80 code=0 char=3 false false
---------------- 24 --------------
-  Tue Sep 11 10:53:56 MSK 2018
-ProcessKeyBinding 402 when=1536652436426 modifiers=0 code=11 char=ffff false false
---------------- 25 --------------
-  Tue Sep 11 10:53:56 MSK 2018
-ProcessKeyBinding 401 when=1536652436582 modifiers=80 code=11 char=ffff false false
---------------- 26 --------------
-  Tue Sep 11 10:53:56 MSK 2018
-Menu Activated: Edit | Paste
---------------- 27 --------------
-  Tue Sep 11 10:53:56 MSK 2018
-ProcessKeyBinding 400 when=1536652436898 modifiers=80 code=0 char=16 false false
---------------- 28 --------------
-  Tue Sep 11 10:53:57 MSK 2018
-ProcessKeyBinding 402 when=1536652437023 modifiers=0 code=11 char=ffff false false
---------------- 29 --------------
-  Tue Sep 11 10:54:00 MSK 2018
-ProcessKeyBinding 401 when=1536652440032 modifiers=80 code=11 char=ffff false false
---------------- 30 --------------
-  Tue Sep 11 10:54:00 MSK 2018
-Menu Activated: Edit | Copy
-Currently highlighted: 
-    Parameter 'C1' on node CB{ic}['CB@4']
-    Parameter 'C1' on node CB{ic}['CB@5']
-    Parameter 'C1' on node CB{ic}['CB@6']
-    Parameter 'C1' on node CB{ic}['CB@7']
-    Parameter 'C1' on node CB{ic}['CB@3']
-    Parameter 'C1' on node CB{ic}['CB@2']
-    Parameter 'C1' on node CB{ic}['CB@1']
-    Parameter 'C1' on node CB{ic}['CB@0']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@3']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@2']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@6']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@4']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@7']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@0']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@1']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@5']
---------------- 31 --------------
-  Tue Sep 11 10:54:00 MSK 2018
-ProcessKeyBinding 400 when=1536652440190 modifiers=80 code=0 char=3 false false
---------------- 32 --------------
-  Tue Sep 11 10:54:00 MSK 2018
-ProcessKeyBinding 402 when=1536652440300 modifiers=0 code=11 char=ffff false false
---------------- 33 --------------
-  Tue Sep 11 10:54:00 MSK 2018
-ProcessKeyBinding 401 when=1536652440579 modifiers=80 code=11 char=ffff false false
---------------- 34 --------------
-  Tue Sep 11 10:54:00 MSK 2018
-ProcessKeyBinding 402 when=1536652440834 modifiers=0 code=11 char=ffff false false
---------------- 35 --------------
-  Tue Sep 11 10:54:01 MSK 2018
+  Sat Sep 15 12:42:56 MSK 2018
 Menu Activated: Window | Zoom Out
+--------------- 6 --------------
+  Sat Sep 15 12:42:56 MSK 2018
+ProcessKeyBinding 400 when=1537004576022 modifiers=0 code=0 char=446 false false
+--------------- 7 --------------
+  Sat Sep 15 12:42:59 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+--------------- 8 --------------
+  Sat Sep 15 13:06:37 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+--------------- 9 --------------
+  Sat Sep 15 13:07:12 MSK 2018
+ProcessKeyBinding 401 when=1537006032832 modifiers=80 code=11 char=ffff false false
+--------------- 10 --------------
+  Sat Sep 15 13:07:13 MSK 2018
+ProcessKeyBinding 401 when=1537006033336 modifiers=480 code=11 char=ffff false false
+--------------- 11 --------------
+  Sat Sep 15 13:07:13 MSK 2018
+ProcessKeyBinding 401 when=1537006033368 modifiers=480 code=11 char=ffff false false
+--------------- 12 --------------
+  Sat Sep 15 13:07:13 MSK 2018
+ProcessKeyBinding 401 when=1537006033401 modifiers=80 code=11 char=ffff false false
+--------------- 13 --------------
+  Sat Sep 15 13:07:13 MSK 2018
+ProcessKeyBinding 401 when=1537006033433 modifiers=80 code=11 char=ffff false false
+--------------- 14 --------------
+  Sat Sep 15 13:07:13 MSK 2018
+ProcessKeyBinding 401 when=1537006033465 modifiers=80 code=11 char=ffff false false
+--------------- 15 --------------
+  Sat Sep 15 13:07:13 MSK 2018
+ProcessKeyBinding 401 when=1537006033501 modifiers=80 code=11 char=ffff false false
+--------------- 16 --------------
+  Sat Sep 15 13:07:13 MSK 2018
+ProcessKeyBinding 401 when=1537006033532 modifiers=80 code=11 char=ffff false false
+--------------- 17 --------------
+  Sat Sep 15 13:07:13 MSK 2018
+ProcessKeyBinding 401 when=1537006033564 modifiers=80 code=11 char=ffff false false
+--------------- 18 --------------
+  Sat Sep 15 13:07:13 MSK 2018
+ProcessKeyBinding 402 when=1537006033586 modifiers=0 code=11 char=ffff false false
+--------------- 19 --------------
+  Sat Sep 15 13:07:15 MSK 2018
+ProcessKeyBinding 401 when=1537006035534 modifiers=0 code=30 char=30(0) false true
+--------------- 20 --------------
+  Sat Sep 15 13:07:15 MSK 2018
+ProcessKeyBinding 402 when=1537006035669 modifiers=0 code=30 char=30(0) false true
+--------------- 21 --------------
+  Sat Sep 15 13:07:15 MSK 2018
+ProcessKeyBinding 401 when=1537006035710 modifiers=0 code=30 char=30(0) false true
+--------------- 22 --------------
+  Sat Sep 15 13:07:15 MSK 2018
+ProcessKeyBinding 402 when=1537006035832 modifiers=0 code=30 char=30(0) false true
+--------------- 23 --------------
+  Sat Sep 15 13:07:17 MSK 2018
+ProcessKeyBinding 401 when=1537006037939 modifiers=0 code=30 char=30(0) false true
+--------------- 24 --------------
+  Sat Sep 15 13:07:18 MSK 2018
+ProcessKeyBinding 402 when=1537006038224 modifiers=0 code=30 char=30(0) false true
+--------------- 25 --------------
+  Sat Sep 15 13:07:18 MSK 2018
+ProcessKeyBinding 401 when=1537006038652 modifiers=0 code=30 char=30(0) false true
+--------------- 26 --------------
+  Sat Sep 15 13:07:18 MSK 2018
+ProcessKeyBinding 402 when=1537006038775 modifiers=0 code=30 char=30(0) false true
+--------------- 27 --------------
+  Sat Sep 15 13:07:22 MSK 2018
+ProcessKeyBinding 401 when=1537006042208 modifiers=0 code=30 char=30(0) false true
+--------------- 28 --------------
+  Sat Sep 15 13:07:22 MSK 2018
+ProcessKeyBinding 402 when=1537006042320 modifiers=0 code=30 char=30(0) false true
+--------------- 29 --------------
+  Sat Sep 15 13:07:22 MSK 2018
+ProcessKeyBinding 401 when=1537006042364 modifiers=0 code=30 char=30(0) false true
+--------------- 30 --------------
+  Sat Sep 15 13:07:22 MSK 2018
+ProcessKeyBinding 402 when=1537006042475 modifiers=0 code=30 char=30(0) false true
+--------------- 31 --------------
+  Sat Sep 15 13:07:23 MSK 2018
+ProcessKeyBinding 401 when=1537006043925 modifiers=0 code=30 char=30(0) false true
+--------------- 32 --------------
+  Sat Sep 15 13:07:24 MSK 2018
+ProcessKeyBinding 402 when=1537006044043 modifiers=0 code=30 char=30(0) false true
+--------------- 33 --------------
+  Sat Sep 15 13:07:25 MSK 2018
+ProcessKeyBinding 401 when=1537006045410 modifiers=0 code=62 char=32(2) false true
+--------------- 34 --------------
+  Sat Sep 15 13:07:25 MSK 2018
+ProcessKeyBinding 402 when=1537006045517 modifiers=0 code=62 char=32(2) false true
+--------------- 35 --------------
+  Sat Sep 15 13:07:25 MSK 2018
+ProcessKeyBinding 401 when=1537006045569 modifiers=0 code=60 char=30(0) false true
 --------------- 36 --------------
-  Tue Sep 11 10:54:01 MSK 2018
-ProcessKeyBinding 400 when=1536652441183 modifiers=0 code=0 char=77(w) false false
+  Sat Sep 15 13:07:25 MSK 2018
+ProcessKeyBinding 402 when=1537006045695 modifiers=0 code=60 char=30(0) false true
 --------------- 37 --------------
-  Tue Sep 11 10:54:01 MSK 2018
-ProcessKeyBinding 401 when=1536652441680 modifiers=80 code=11 char=ffff false false
+  Sat Sep 15 13:07:25 MSK 2018
+ProcessKeyBinding 401 when=1537006045749 modifiers=0 code=60 char=30(0) false true
 --------------- 38 --------------
-  Tue Sep 11 10:54:01 MSK 2018
-Menu Activated: Edit | Paste
+  Sat Sep 15 13:07:25 MSK 2018
+ProcessKeyBinding 402 when=1537006045846 modifiers=0 code=60 char=30(0) false true
 --------------- 39 --------------
-  Tue Sep 11 10:54:01 MSK 2018
-ProcessKeyBinding 400 when=1536652441808 modifiers=80 code=0 char=16 false false
+  Sat Sep 15 13:07:26 MSK 2018
+ProcessKeyBinding 401 when=1537006046512 modifiers=0 code=55 char=433 false true
 --------------- 40 --------------
-  Tue Sep 11 10:54:01 MSK 2018
-ProcessKeyBinding 402 when=1536652441984 modifiers=0 code=11 char=ffff false false
+  Sat Sep 15 13:07:26 MSK 2018
+ProcessKeyBinding 401 when=1537006046512 modifiers=0 code=55 char=433 false true
 --------------- 41 --------------
-  Tue Sep 11 10:54:04 MSK 2018
-ProcessKeyBinding 401 when=1536652444883 modifiers=80 code=11 char=ffff false false
+  Sat Sep 15 13:07:26 MSK 2018
+ProcessKeyBinding 402 when=1537006046638 modifiers=0 code=55 char=433 false true
 --------------- 42 --------------
-  Tue Sep 11 10:54:05 MSK 2018
-Menu Activated: Edit | Copy
-Currently highlighted: 
-    Parameter 'C1' on node CB{ic}['CB@4']
-    Parameter 'C1' on node CB{ic}['CB@5']
-    Parameter 'C1' on node CB{ic}['CB@6']
-    Parameter 'C1' on node CB{ic}['CB@7']
-    Parameter 'C1' on node CB{ic}['CB@8']
-    Parameter 'C1' on node CB{ic}['CB@9']
-    Parameter 'C1' on node CB{ic}['CB@10']
-    Parameter 'C1' on node CB{ic}['CB@11']
-    Parameter 'C1' on node CB{ic}['CB@12']
-    Parameter 'C1' on node CB{ic}['CB@13']
-    Parameter 'C1' on node CB{ic}['CB@14']
-    Parameter 'C1' on node CB{ic}['CB@15']
-    Parameter 'C1' on node CB{ic}['CB@3']
-    Parameter 'C1' on node CB{ic}['CB@2']
-    Parameter 'C1' on node CB{ic}['CB@1']
-    Parameter 'C1' on node CB{ic}['CB@0']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@3']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@2']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@6']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@4']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@7']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@0']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@1']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@5']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@11']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@10']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@9']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@8']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@15']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@14']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@13']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@12']
+  Sat Sep 15 13:07:26 MSK 2018
+ProcessKeyBinding 402 when=1537006046638 modifiers=0 code=55 char=433 false true
 --------------- 43 --------------
-  Tue Sep 11 10:54:05 MSK 2018
-ProcessKeyBinding 400 when=1536652445011 modifiers=80 code=0 char=3 false false
+  Sat Sep 15 13:07:27 MSK 2018
+ProcessKeyBinding 402 when=1537006047884 modifiers=0 code=8 char=8 false true
 --------------- 44 --------------
-  Tue Sep 11 10:54:05 MSK 2018
-ProcessKeyBinding 402 when=1536652445123 modifiers=0 code=11 char=ffff false false
+  Sat Sep 15 13:07:27 MSK 2018
+ProcessKeyBinding 401 when=1537006047914 modifiers=200 code=12 char=ffff false true
 --------------- 45 --------------
-  Tue Sep 11 10:54:05 MSK 2018
-ProcessKeyBinding 401 when=1536652445245 modifiers=80 code=11 char=ffff false false
+  Sat Sep 15 13:07:27 MSK 2018
+ProcessKeyBinding 401 when=1537006047928 modifiers=240 code=10 char=ffff false true
 --------------- 46 --------------
-  Tue Sep 11 10:54:05 MSK 2018
-Menu Activated: Edit | Paste
-Currently highlighted: 
-    Parameter 'C1' on node CB{ic}['CB@4']
-    Parameter 'C1' on node CB{ic}['CB@5']
-    Parameter 'C1' on node CB{ic}['CB@6']
-    Parameter 'C1' on node CB{ic}['CB@7']
-    Parameter 'C1' on node CB{ic}['CB@8']
-    Parameter 'C1' on node CB{ic}['CB@9']
-    Parameter 'C1' on node CB{ic}['CB@10']
-    Parameter 'C1' on node CB{ic}['CB@11']
-    Parameter 'C1' on node CB{ic}['CB@12']
-    Parameter 'C1' on node CB{ic}['CB@13']
-    Parameter 'C1' on node CB{ic}['CB@14']
-    Parameter 'C1' on node CB{ic}['CB@15']
-    Parameter 'C1' on node CB{ic}['CB@3']
-    Parameter 'C1' on node CB{ic}['CB@2']
-    Parameter 'C1' on node CB{ic}['CB@1']
-    Parameter 'C1' on node CB{ic}['CB@0']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@3']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@2']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@6']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@4']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@7']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@0']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@1']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@5']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@11']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@10']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@9']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@8']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@15']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@14']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@13']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@12']
+  Sat Sep 15 13:07:28 MSK 2018
+ProcessKeyBinding 402 when=1537006048046 modifiers=40 code=12 char=ffff false true
 --------------- 47 --------------
-  Tue Sep 11 10:54:05 MSK 2018
-ProcessKeyBinding 400 when=1536652445364 modifiers=80 code=0 char=16 false false
+  Sat Sep 15 13:07:28 MSK 2018
+ProcessKeyBinding 402 when=1537006048072 modifiers=0 code=10 char=ffff false true
 --------------- 48 --------------
-  Tue Sep 11 10:54:05 MSK 2018
-ProcessKeyBinding 402 when=1536652445515 modifiers=0 code=11 char=ffff false false
+  Sat Sep 15 13:07:28 MSK 2018
+ProcessKeyBinding 401 when=1537006048114 modifiers=0 code=55 char=75(u) false true
 --------------- 49 --------------
-  Tue Sep 11 10:54:05 MSK 2018
-ProcessKeyBinding 401 when=1536652445974 modifiers=80 code=11 char=ffff false false
+  Sat Sep 15 13:07:28 MSK 2018
+ProcessKeyBinding 402 when=1537006048245 modifiers=0 code=55 char=75(u) false true
 --------------- 50 --------------
-  Tue Sep 11 10:54:06 MSK 2018
-Menu Activated: Edit | Paste
+  Sat Sep 15 13:07:31 MSK 2018
+Menu Activated: Window | Zoom Out
 --------------- 51 --------------
-  Tue Sep 11 10:54:06 MSK 2018
-ProcessKeyBinding 400 when=1536652446055 modifiers=80 code=0 char=16 false false
+  Sat Sep 15 13:07:31 MSK 2018
+ProcessKeyBinding 400 when=1537006051471 modifiers=0 code=0 char=77(w) false false
 --------------- 52 --------------
-  Tue Sep 11 10:54:06 MSK 2018
-ProcessKeyBinding 402 when=1536652446216 modifiers=0 code=11 char=ffff false false
+  Sat Sep 15 13:07:36 MSK 2018
+Menu Activated: Window | Zoom Out
 --------------- 53 --------------
-  Tue Sep 11 10:54:10 MSK 2018
-ProcessKeyBinding 401 when=1536652450524 modifiers=80 code=11 char=ffff false false
+  Sat Sep 15 13:07:36 MSK 2018
+ProcessKeyBinding 400 when=1537006056299 modifiers=0 code=0 char=77(w) false false
 --------------- 54 --------------
-  Tue Sep 11 10:54:10 MSK 2018
-Menu Activated: Edit | Copy
-Currently highlighted: 
-    Parameter 'C1' on node CB{ic}['CB@20']
-    Parameter 'C1' on node CB{ic}['CB@7']
-    Parameter 'C1' on node CB{ic}['CB@6']
-    Parameter 'C1' on node CB{ic}['CB@5']
-    Parameter 'C1' on node CB{ic}['CB@21']
-    Parameter 'C1' on node CB{ic}['CB@22']
-    Parameter 'C1' on node CB{ic}['CB@23']
-    Parameter 'C1' on node CB{ic}['CB@4']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@4']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@6']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@7']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@20']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@21']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@22']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@23']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@5']
+  Sat Sep 15 13:07:39 MSK 2018
+ProcessKeyBinding 401 when=1537006059439 modifiers=0 code=30 char=30(0) false true
 --------------- 55 --------------
-  Tue Sep 11 10:54:10 MSK 2018
-ProcessKeyBinding 400 when=1536652450658 modifiers=80 code=0 char=3 false false
+  Sat Sep 15 13:07:39 MSK 2018
+ProcessKeyBinding 402 when=1537006059552 modifiers=0 code=30 char=30(0) false true
 --------------- 56 --------------
-  Tue Sep 11 10:54:10 MSK 2018
-ProcessKeyBinding 402 when=1536652450780 modifiers=0 code=11 char=ffff false false
+  Sat Sep 15 13:07:42 MSK 2018
+ProcessKeyBinding 401 when=1537006062002 modifiers=0 code=33 char=33(3) false true
 --------------- 57 --------------
-  Tue Sep 11 10:54:11 MSK 2018
-ProcessKeyBinding 401 when=1536652451480 modifiers=80 code=11 char=ffff false false
+  Sat Sep 15 13:07:42 MSK 2018
+ProcessKeyBinding 402 when=1537006062119 modifiers=0 code=33 char=33(3) false true
 --------------- 58 --------------
-  Tue Sep 11 10:54:11 MSK 2018
-Menu Activated: Edit | Paste
+  Sat Sep 15 13:07:45 MSK 2018
+ProcessKeyBinding 402 when=1537006065058 modifiers=0 code=8 char=8 false true
 --------------- 59 --------------
-  Tue Sep 11 10:54:11 MSK 2018
-ProcessKeyBinding 400 when=1536652451552 modifiers=80 code=0 char=16 false false
+  Sat Sep 15 13:07:47 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+Currently highlighted: 
+    Parameter 'tstep' on node ngspice:5400TP094_core{ic}['5400TP09@0']
 --------------- 60 --------------
-  Tue Sep 11 10:54:11 MSK 2018
-ProcessKeyBinding 402 when=1536652451697 modifiers=0 code=11 char=ffff false false
+  Sat Sep 15 13:08:43 MSK 2018
+Menu Activated: Window | Zoom In
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@6].OUT3'
 --------------- 61 --------------
-  Tue Sep 11 10:54:13 MSK 2018
-Menu Activated: Window | Zoom In
-Currently highlighted: 
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@32']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@33']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@34']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@35']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@36']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@37']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@38']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@39']
+  Sat Sep 15 13:08:43 MSK 2018
+ProcessKeyBinding 400 when=1537006123951 modifiers=0 code=0 char=65(e) false false
 --------------- 62 --------------
-  Tue Sep 11 10:54:13 MSK 2018
-ProcessKeyBinding 400 when=1536652453407 modifiers=0 code=0 char=65(e) false false
+  Sat Sep 15 13:08:44 MSK 2018
+Menu Activated: Window | Zoom In
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@6].OUT3'
 --------------- 63 --------------
-  Tue Sep 11 10:54:13 MSK 2018
-Menu Activated: Window | Zoom In
-Currently highlighted: 
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@32']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@33']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@34']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@35']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@36']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@37']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@38']
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': CB{ic}['CB@39']
+  Sat Sep 15 13:08:44 MSK 2018
+ProcessKeyBinding 400 when=1537006124312 modifiers=0 code=0 char=65(e) false false
 --------------- 64 --------------
-  Tue Sep 11 10:54:13 MSK 2018
-ProcessKeyBinding 400 when=1536652453995 modifiers=0 code=0 char=65(e) false false
+  Sat Sep 15 13:08:44 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@6].OUT3'
 --------------- 65 --------------
-  Tue Sep 11 10:54:15 MSK 2018
-Menu Activated: Window | Zoom In
+  Sat Sep 15 13:08:44 MSK 2018
+ProcessKeyBinding 400 when=1537006124662 modifiers=0 code=0 char=31(1) false false
 --------------- 66 --------------
-  Tue Sep 11 10:54:15 MSK 2018
-ProcessKeyBinding 400 when=1536652455036 modifiers=0 code=0 char=65(e) false false
+  Sat Sep 15 13:09:04 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'basic:PAM_2nd_casc_RC{ic}': 'schematic:Bus_Pin[pin@4].bus'
 --------------- 67 --------------
-  Tue Sep 11 10:54:16 MSK 2018
-Menu Activated: Window | Zoom In
+  Sat Sep 15 13:09:04 MSK 2018
+ProcessKeyBinding 400 when=1537006144652 modifiers=0 code=0 char=32(2) false false
 --------------- 68 --------------
-  Tue Sep 11 10:54:16 MSK 2018
-ProcessKeyBinding 400 when=1536652456400 modifiers=0 code=0 char=65(e) false false
+  Sat Sep 15 13:22:33 MSK 2018
+Menu Activated: Window | Zoom Out
 --------------- 69 --------------
-  Tue Sep 11 10:54:24 MSK 2018
-Menu Activated: Window | Zoom In
-Currently highlighted: 
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': ngspice:vpulse{ic}['vpulse@0']
+  Sat Sep 15 13:22:33 MSK 2018
+ProcessKeyBinding 400 when=1537006953690 modifiers=0 code=0 char=77(w) false false
 --------------- 70 --------------
-  Tue Sep 11 10:54:24 MSK 2018
-ProcessKeyBinding 400 when=1536652464932 modifiers=0 code=0 char=65(e) false false
+  Sat Sep 15 13:22:33 MSK 2018
+Menu Activated: Window | Zoom Out
 --------------- 71 --------------
-  Tue Sep 11 10:54:29 MSK 2018
-Menu Activated: Edit | Move | Move Objects Right
-Currently highlighted: 
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': 'ngspice:vpulse{ic}[vpulse@0].VSP'
+  Sat Sep 15 13:22:33 MSK 2018
+ProcessKeyBinding 400 when=1537006953857 modifiers=0 code=0 char=77(w) false false
 --------------- 72 --------------
-  Tue Sep 11 10:54:31 MSK 2018
-ProcessKeyBinding 401 when=1536652471359 modifiers=0 code=0 char=ffff false false
---------------- 73 --------------
-  Tue Sep 11 10:54:31 MSK 2018
-ProcessKeyBinding 402 when=1536652471368 modifiers=0 code=0 char=ffff false false
---------------- 74 --------------
-  Tue Sep 11 10:54:33 MSK 2018
-ProcessKeyBinding 401 when=1536652473758 modifiers=0 code=0 char=ffff false false
---------------- 75 --------------
-  Tue Sep 11 10:54:33 MSK 2018
-ProcessKeyBinding 402 when=1536652473767 modifiers=0 code=0 char=ffff false false
---------------- 76 --------------
-  Tue Sep 11 10:54:36 MSK 2018
-ProcessKeyBinding 401 when=1536652476274 modifiers=0 code=0 char=ffff false false
---------------- 77 --------------
-  Tue Sep 11 10:54:36 MSK 2018
-ProcessKeyBinding 402 when=1536652476284 modifiers=0 code=0 char=ffff false false
---------------- 78 --------------
-  Tue Sep 11 10:54:36 MSK 2018
-ProcessKeyBinding 401 when=1536652476757 modifiers=0 code=0 char=ffff false false
---------------- 79 --------------
-  Tue Sep 11 10:54:36 MSK 2018
-ProcessKeyBinding 402 when=1536652476765 modifiers=0 code=0 char=ffff false false
---------------- 80 --------------
-  Tue Sep 11 10:54:36 MSK 2018
-ProcessKeyBinding 401 when=1536652476992 modifiers=0 code=0 char=ffff false false
---------------- 81 --------------
-  Tue Sep 11 10:54:37 MSK 2018
-ProcessKeyBinding 402 when=1536652477002 modifiers=0 code=0 char=ffff false false
---------------- 82 --------------
-  Tue Sep 11 10:54:46 MSK 2018
-Menu Activated: Edit | Cleanup Cell | Cleanup Pins
-Currently highlighted: 
-    com.sun.electric.tool.user.HighlightEOBJ in cell '123{sch}': 'Wire_Pin[pin@1].wire'
---------------- 83 --------------
-  Tue Sep 11 10:54:50 MSK 2018
+  Sat Sep 15 13:22:34 MSK 2018
 Menu Activated: Window | Zoom In
+--------------- 73 --------------
+  Sat Sep 15 13:22:34 MSK 2018
+ProcessKeyBinding 400 when=1537006954303 modifiers=0 code=0 char=65(e) false false
+--------------- 74 --------------
+  Sat Sep 15 13:22:34 MSK 2018
+Menu Activated: Window | Zoom In
+--------------- 75 --------------
+  Sat Sep 15 13:22:34 MSK 2018
+ProcessKeyBinding 400 when=1537006954514 modifiers=0 code=0 char=65(e) false false
+--------------- 76 --------------
+  Sat Sep 15 13:22:34 MSK 2018
+Menu Activated: Window | Zoom In
+--------------- 77 --------------
+  Sat Sep 15 13:22:34 MSK 2018
+ProcessKeyBinding 400 when=1537006954748 modifiers=0 code=0 char=65(e) false false
+--------------- 78 --------------
+  Sat Sep 15 13:22:35 MSK 2018
+Menu Activated: Window | Zoom In
+--------------- 79 --------------
+  Sat Sep 15 13:22:35 MSK 2018
+ProcessKeyBinding 400 when=1537006955680 modifiers=0 code=0 char=65(e) false false
+--------------- 80 --------------
+  Sat Sep 15 13:22:37 MSK 2018
+Menu Activated: Window | Zoom Out
+--------------- 81 --------------
+  Sat Sep 15 13:22:37 MSK 2018
+ProcessKeyBinding 400 when=1537006957479 modifiers=0 code=0 char=77(w) false false
+--------------- 82 --------------
+  Sat Sep 15 13:22:37 MSK 2018
+Menu Activated: Window | Zoom Out
+--------------- 83 --------------
+  Sat Sep 15 13:22:37 MSK 2018
+ProcessKeyBinding 400 when=1537006957698 modifiers=0 code=0 char=77(w) false false
 --------------- 84 --------------
-  Tue Sep 11 10:54:50 MSK 2018
-ProcessKeyBinding 400 when=1536652490227 modifiers=0 code=0 char=65(e) false false
+  Sat Sep 15 13:22:37 MSK 2018
+Menu Activated: Window | Zoom Out
 --------------- 85 --------------
-  Tue Sep 11 10:54:52 MSK 2018
-ProcessKeyBinding 401 when=1536652492472 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:22:37 MSK 2018
+ProcessKeyBinding 400 when=1537006957951 modifiers=0 code=0 char=77(w) false false
 --------------- 86 --------------
-  Tue Sep 11 10:54:52 MSK 2018
-ProcessKeyBinding 402 when=1536652492596 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:22:40 MSK 2018
+Menu Activated: Window | Zoom In
 --------------- 87 --------------
-  Tue Sep 11 10:54:54 MSK 2018
-ProcessKeyBinding 401 when=1536652494728 modifiers=0 code=35 char=35(5) false true
+  Sat Sep 15 13:22:40 MSK 2018
+ProcessKeyBinding 400 when=1537006960080 modifiers=0 code=0 char=65(e) false false
 --------------- 88 --------------
-  Tue Sep 11 10:54:54 MSK 2018
-ProcessKeyBinding 402 when=1536652494858 modifiers=0 code=35 char=35(5) false true
+  Sat Sep 15 13:22:40 MSK 2018
+Menu Activated: Window | Zoom In
 --------------- 89 --------------
-  Tue Sep 11 10:54:56 MSK 2018
-ProcessKeyBinding 401 when=1536652496449 modifiers=0 code=31 char=31(1) false true
+  Sat Sep 15 13:22:40 MSK 2018
+ProcessKeyBinding 400 when=1537006960283 modifiers=0 code=0 char=65(e) false false
 --------------- 90 --------------
-  Tue Sep 11 10:54:56 MSK 2018
-ProcessKeyBinding 402 when=1536652496592 modifiers=0 code=31 char=31(1) false true
+  Sat Sep 15 13:22:41 MSK 2018
+Menu Activated: Window | Zoom Out
 --------------- 91 --------------
-  Tue Sep 11 10:54:56 MSK 2018
-ProcessKeyBinding 401 when=1536652496680 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:22:41 MSK 2018
+ProcessKeyBinding 400 when=1537006961071 modifiers=0 code=0 char=77(w) false false
 --------------- 92 --------------
-  Tue Sep 11 10:54:56 MSK 2018
-ProcessKeyBinding 402 when=1536652496797 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:24:27 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].OUT3'
 --------------- 93 --------------
-  Tue Sep 11 10:54:56 MSK 2018
-ProcessKeyBinding 401 when=1536652496845 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:24:27 MSK 2018
+ProcessKeyBinding 400 when=1537007067476 modifiers=0 code=0 char=31(1) false false
 --------------- 94 --------------
-  Tue Sep 11 10:54:56 MSK 2018
-ProcessKeyBinding 402 when=1536652496977 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:24:34 MSK 2018
+ProcessKeyBinding 401 when=1537007074530 modifiers=0 code=6a char=2a(*) false true
 --------------- 95 --------------
-  Tue Sep 11 10:54:57 MSK 2018
-ProcessKeyBinding 401 when=1536652497109 modifiers=0 code=50 char=70(p) false true
+  Sat Sep 15 13:24:34 MSK 2018
+ProcessKeyBinding 402 when=1537007074641 modifiers=0 code=6a char=2a(*) false true
 --------------- 96 --------------
-  Tue Sep 11 10:54:57 MSK 2018
-ProcessKeyBinding 402 when=1536652497240 modifiers=0 code=50 char=70(p) false true
+  Sat Sep 15 13:24:35 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    Attribute 'SPICE_template' of cell 'basic:PAM_2nd_casc_RC{ic}'
 --------------- 97 --------------
-  Tue Sep 11 10:54:59 MSK 2018
-ProcessKeyBinding 401 when=1536652499553 modifiers=0 code=31 char=31(1) false true
+  Sat Sep 15 13:24:35 MSK 2018
+ProcessKeyBinding 400 when=1537007075356 modifiers=0 code=0 char=32(2) false false
 --------------- 98 --------------
-  Tue Sep 11 10:54:59 MSK 2018
-ProcessKeyBinding 402 when=1536652499707 modifiers=0 code=31 char=31(1) false true
+  Sat Sep 15 13:24:36 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_diff_casc{ic}[PAM_diff@0].INM2'
 --------------- 99 --------------
-  Tue Sep 11 10:54:59 MSK 2018
-ProcessKeyBinding 401 when=1536652499866 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:24:36 MSK 2018
+ProcessKeyBinding 400 when=1537007076654 modifiers=0 code=0 char=31(1) false false
 --------------- 100 --------------
-  Tue Sep 11 10:54:59 MSK 2018
-ProcessKeyBinding 402 when=1536652499987 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:24:42 MSK 2018
+ProcessKeyBinding 401 when=1537007082610 modifiers=0 code=6a char=2a(*) false true
 --------------- 101 --------------
-  Tue Sep 11 10:55:00 MSK 2018
-ProcessKeyBinding 401 when=1536652500044 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:24:42 MSK 2018
+ProcessKeyBinding 402 when=1537007082731 modifiers=0 code=6a char=2a(*) false true
 --------------- 102 --------------
-  Tue Sep 11 10:55:00 MSK 2018
-ProcessKeyBinding 402 when=1536652500166 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:24:43 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    Attribute 'SPICE_template' of cell 'basic:PAM_diff_casc{ic}'
 --------------- 103 --------------
-  Tue Sep 11 10:55:00 MSK 2018
-ProcessKeyBinding 401 when=1536652500231 modifiers=0 code=50 char=70(p) false true
+  Sat Sep 15 13:24:43 MSK 2018
+ProcessKeyBinding 400 when=1537007083475 modifiers=0 code=0 char=32(2) false false
 --------------- 104 --------------
-  Tue Sep 11 10:55:00 MSK 2018
-ProcessKeyBinding 402 when=1536652500356 modifiers=0 code=50 char=70(p) false true
+  Sat Sep 15 13:24:45 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_diff_casc{ic}[PAM_diff@0].INM2'
 --------------- 105 --------------
-  Tue Sep 11 10:55:02 MSK 2018
-ProcessKeyBinding 401 when=1536652502755 modifiers=0 code=31 char=31(1) false true
+  Sat Sep 15 13:24:49 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_diff_casc{ic}[PAM_diff@0].INM2'
 --------------- 106 --------------
-  Tue Sep 11 10:55:02 MSK 2018
-ProcessKeyBinding 402 when=1536652502913 modifiers=0 code=31 char=31(1) false true
+  Sat Sep 15 13:24:49 MSK 2018
+ProcessKeyBinding 400 when=1537007089611 modifiers=0 code=0 char=31(1) false false
 --------------- 107 --------------
-  Tue Sep 11 10:55:03 MSK 2018
-ProcessKeyBinding 401 when=1536652503061 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:24:52 MSK 2018
+ProcessKeyBinding 402 when=1537007092832 modifiers=0 code=8 char=8 false true
 --------------- 108 --------------
-  Tue Sep 11 10:55:03 MSK 2018
-ProcessKeyBinding 402 when=1536652503168 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:24:57 MSK 2018
+ProcessKeyBinding 401 when=1537007097781 modifiers=40 code=10 char=ffff false true
 --------------- 109 --------------
-  Tue Sep 11 10:55:03 MSK 2018
-ProcessKeyBinding 401 when=1536652503211 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:24:58 MSK 2018
+ProcessKeyBinding 401 when=1537007098027 modifiers=40 code=38 char=2a(*) false true
 --------------- 110 --------------
-  Tue Sep 11 10:55:03 MSK 2018
-ProcessKeyBinding 402 when=1536652503325 modifiers=0 code=30 char=30(0) false true
+  Sat Sep 15 13:24:58 MSK 2018
+ProcessKeyBinding 402 when=1537007098144 modifiers=0 code=10 char=ffff false true
 --------------- 111 --------------
-  Tue Sep 11 10:55:03 MSK 2018
-ProcessKeyBinding 401 when=1536652503394 modifiers=0 code=50 char=70(p) false true
+  Sat Sep 15 13:24:58 MSK 2018
+ProcessKeyBinding 402 when=1537007098151 modifiers=0 code=38 char=2a(*) false true
 --------------- 112 --------------
-  Tue Sep 11 10:55:03 MSK 2018
-ProcessKeyBinding 402 when=1536652503501 modifiers=0 code=50 char=70(p) false true
---------------- 11
+  Sat Sep 15 13:24:59 MSK 2018
+ProcessKeyBinding 401 when=1537007099921 modifiers=80 code=11 char=ffff false true
+--------------- 113 --------------
+  Sat Sep 15 13:25:00 MSK 2018
+ProcessKeyBinding 402 when=1537007100138 modifiers=0 code=11 char=ffff false true
+--------------- 114 --------------
+  Sat Sep 15 13:25:01 MSK 2018
+ProcessKeyBinding 402 when=1537007101376 modifiers=0 code=a char=a false true
+--------------- 115 --------------
+  Sat Sep 15 13:25:01 MSK 2018
+ProcessKeyBinding 401 when=1537007101433 modifiers=80 code=11 char=ffff false true
+--------------- 116 --------------
+  Sat Sep 15 13:25:01 MSK 2018
+ProcessKeyBinding 402 when=1537007101663 modifiers=0 code=11 char=ffff false true
+--------------- 117 --------------
+  Sat Sep 15 13:25:05 MSK 2018
+ProcessKeyBinding 401 when=1537007105002 modifiers=0 code=50 char=70(p) false true
+--------------- 118 --------------
+  Sat Sep 15 13:25:05 MSK 2018
+ProcessKeyBinding 402 when=1537007105117 modifiers=0 code=50 char=70(p) false true
+--------------- 119 --------------
+  Sat Sep 15 13:25:06 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    Attribute 'SPICE_template' of cell 'basic:PAM_diff_casc{ic}'
+--------------- 120 --------------
+  Sat Sep 15 13:25:06 MSK 2018
+ProcessKeyBinding 400 when=1537007106011 modifiers=0 code=0 char=32(2) false false
+--------------- 121 --------------
+  Sat Sep 15 13:25:08 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_diff_casc{ic}[PAM_diff@0].INM2'
+--------------- 122 --------------
+  Sat Sep 15 13:28:24 MSK 2018
+Menu Activated: Window | Zoom In
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': wire['net@52']
+--------------- 123 --------------
+  Sat Sep 15 13:28:24 MSK 2018
+ProcessKeyBinding 400 when=1537007304594 modifiers=0 code=0 char=65(e) false false
+--------------- 124 --------------
+  Sat Sep 15 13:29:26 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_diff_casc{ic}[PAM_diff@0].outm'
+--------------- 125 --------------
+  Sat Sep 15 13:29:26 MSK 2018
+ProcessKeyBinding 400 when=1537007366751 modifiers=0 code=0 char=31(1) false false
+--------------- 126 --------------
+  Sat Sep 15 13:29:53 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'basic:PAM_diff_casc{ic}': 'schematic:Bus_Pin[pin@4].bus'
+--------------- 127 --------------
+  Sat Sep 15 13:29:53 MSK 2018
+ProcessKeyBinding 400 when=1537007393964 modifiers=0 code=0 char=32(2) false false
+--------------- 128 --------------
+  Sat Sep 15 13:29:55 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].CML'
+--------------- 129 --------------
+  Sat Sep 15 13:29:55 MSK 2018
+ProcessKeyBinding 400 when=1537007395968 modifiers=0 code=0 char=31(1) false false
+--------------- 130 --------------
+  Sat Sep 15 13:30:10 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+--------------- 131 --------------
+  Sat Sep 15 13:30:10 MSK 2018
+ProcessKeyBinding 400 when=1537007410198 modifiers=0 code=0 char=32(2) false false
+--------------- 132 --------------
+  Sat Sep 15 13:30:12 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].CML'
+--------------- 133 --------------
+  Sat Sep 15 13:32:08 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].OUT3'
+--------------- 134 --------------
+  Sat Sep 15 13:32:08 MSK 2018
+ProcessKeyBinding 400 when=1537007528352 modifiers=0 code=0 char=31(1) false false
+--------------- 135 --------------
+  Sat Sep 15 13:33:57 MSK 2018
+ProcessKeyBinding 401 when=1537007637629 modifiers=0 code=30 char=30(0) false true
+--------------- 136 --------------
+  Sat Sep 15 13:33:57 MSK 2018
+ProcessKeyBinding 402 when=1537007637714 modifiers=0 code=30 char=30(0) false true
+--------------- 137 --------------
+  Sat Sep 15 13:34:02 MSK 2018
+ProcessKeyBinding 402 when=1537007642158 modifiers=0 code=25 char=ffff false true
+--------------- 138 --------------
+  Sat Sep 15 13:34:02 MSK 2018
+ProcessKeyBinding 401 when=1537007642270 modifiers=40 code=10 char=ffff false true
+--------------- 139 --------------
+  Sat Sep 15 13:34:02 MSK 2018
+ProcessKeyBinding 401 when=1537007642324 modifiers=40 code=56 char=56(V) false true
+--------------- 140 --------------
+  Sat Sep 15 13:34:02 MSK 2018
+ProcessKeyBinding 402 when=1537007642419 modifiers=0 code=10 char=ffff false true
+--------------- 141 --------------
+  Sat Sep 15 13:34:02 MSK 2018
+ProcessKeyBinding 402 when=1537007642468 modifiers=0 code=56 char=56(V) false true
+--------------- 142 --------------
+  Sat Sep 15 13:34:02 MSK 2018
+ProcessKeyBinding 401 when=1537007642876 modifiers=40 code=10 char=ffff false true
+--------------- 143 --------------
+  Sat Sep 15 13:34:03 MSK 2018
+ProcessKeyBinding 401 when=1537007643096 modifiers=40 code=39 char=28(() false true
+--------------- 144 --------------
+  Sat Sep 15 13:34:03 MSK 2018
+ProcessKeyBinding 401 when=1537007643200 modifiers=40 code=30 char=29()) false true
+--------------- 145 --------------
+  Sat Sep 15 13:34:03 MSK 2018
+ProcessKeyBinding 402 when=1537007643303 modifiers=40 code=39 char=28(() false true
+--------------- 146 --------------
+  Sat Sep 15 13:34:03 MSK 2018
+ProcessKeyBinding 402 when=1537007643349 modifiers=40 code=30 char=29()) false true
+--------------- 147 --------------
+  Sat Sep 15 13:34:03 MSK 2018
+ProcessKeyBinding 402 when=1537007643355 modifiers=0 code=10 char=ffff false true
+--------------- 148 --------------
+  Sat Sep 15 13:34:04 MSK 2018
+ProcessKeyBinding 402 when=1537007644380 modifiers=0 code=25 char=ffff false true
+--------------- 149 --------------
+  Sat Sep 15 13:34:04 MSK 2018
+ProcessKeyBinding 401 when=1537007644423 modifiers=40 code=10 char=ffff false true
+--------------- 150 --------------
+  Sat Sep 15 13:34:04 MSK 2018
+ProcessKeyBinding 401 when=1537007644581 modifiers=40 code=43 char=43(C) false true
+--------------- 151 --------------
+  Sat Sep 15 13:34:04 MSK 2018
+ProcessKeyBinding 401 when=1537007644718 modifiers=40 code=4d char=4d(M) false true
+--------------- 152 --------------
+  Sat Sep 15 13:34:04 MSK 2018
+ProcessKeyBinding 402 when=1537007644784 modifiers=40 code=43 char=43(C) false true
+--------------- 153 --------------
+  Sat Sep 15 13:34:04 MSK 2018
+ProcessKeyBinding 401 when=1537007644800 modifiers=40 code=4c char=4c(L) false true
+--------------- 154 --------------
+  Sat Sep 15 13:34:04 MSK 2018
+ProcessKeyBinding 402 when=1537007644930 modifiers=40 code=4d char=4d(M) false true
+--------------- 155 --------------
+  Sat Sep 15 13:34:04 MSK 2018
+ProcessKeyBinding 402 when=1537007644970 modifiers=40 code=4c char=4c(L) false true
+--------------- 156 --------------
+  Sat Sep 15 13:34:05 MSK 2018
+ProcessKeyBinding 402 when=1537007645072 modifiers=0 code=10 char=ffff false true
+--------------- 157 --------------
+  Sat Sep 15 13:34:05 MSK 2018
+ProcessKeyBinding 402 when=1537007645931 modifiers=0 code=27 char=ffff false true
+--------------- 158 --------------
+  Sat Sep 15 13:34:06 MSK 2018
+ProcessKeyBinding 401 when=1537007646324 modifiers=0 code=20 char=20 false true
+--------------- 159 --------------
+  Sat Sep 15 13:34:06 MSK 2018
+ProcessKeyBinding 402 when=1537007646445 modifiers=0 code=20 char=20 false true
+--------------- 160 --------------
+  Sat Sep 15 13:34:06 MSK 2018
+ProcessKeyBinding 401 when=1537007646484 modifiers=40 code=10 char=ffff false true
+--------------- 161 --------------
+  Sat Sep 15 13:34:06 MSK 2018
+ProcessKeyBinding 401 when=1537007646603 modifiers=40 code=3d char=2b(+) false true
+--------------- 162 --------------
+  Sat Sep 15 13:34:06 MSK 2018
+ProcessKeyBinding 402 when=1537007646725 modifiers=40 code=3d char=2b(+) false true
+--------------- 163 --------------
+  Sat Sep 15 13:34:06 MSK 2018
+ProcessKeyBinding 401 when=1537007646744 modifiers=40 code=20 char=20 false true
+--------------- 164 --------------
+  Sat Sep 15 13:34:06 MSK 2018
+ProcessKeyBinding 402 when=1537007646765 modifiers=0 code=10 char=ffff false true
+--------------- 165 --------------
+  Sat Sep 15 13:34:06 MSK 2018
+ProcessKeyBinding 402 when=1537007646839 modifiers=0 code=20 char=20 false true
+--------------- 166 --------------
+  Sat Sep 15 13:34:14 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+--------------- 167 --------------
+  Sat Sep 15 13:34:14 MSK 2018
+ProcessKeyBinding 400 when=1537007654745 modifiers=0 code=0 char=32(2) false false
+--------------- 168 --------------
+  Sat Sep 15 13:34:17 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].OUT3'
+--------------- 169 --------------
+  Sat Sep 15 13:35:07 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].OUT3'
+--------------- 170 --------------
+  Sat Sep 15 13:35:07 MSK 2018
+ProcessKeyBinding 400 when=1537007707348 modifiers=0 code=0 char=31(1) false false
+--------------- 171 --------------
+  Sat Sep 15 13:35:09 MSK 2018
+Menu Activated: Window | Zoom In
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'basic:PAM_2nd_casc_RC{ic}': 'schematic:Bus_Pin[pin@4].bus'
+--------------- 172 --------------
+  Sat Sep 15 13:35:09 MSK 2018
+ProcessKeyBinding 400 when=1537007709674 modifiers=0 code=0 char=65(e) false false
+--------------- 173 --------------
+  Sat Sep 15 13:35:10 MSK 2018
+Menu Activated: Window | Zoom In
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'basic:PAM_2nd_casc_RC{ic}': 'schematic:Bus_Pin[pin@4].bus'
+--------------- 174 --------------
+  Sat Sep 15 13:35:10 MSK 2018
+ProcessKeyBinding 400 when=1537007710350 modifiers=0 code=0 char=65(e) false false
+--------------- 175 --------------
+  Sat Sep 15 13:35:10 MSK 2018
+Menu Activated: Window | Zoom In
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'basic:PAM_2nd_casc_RC{ic}': 'schematic:Bus_Pin[pin@4].bus'
+--------------- 176 --------------
+  Sat Sep 15 13:35:10 MSK 2018
+ProcessKeyBinding 400 when=1537007710916 modifiers=0 code=0 char=65(e) false false
+--------------- 177 --------------
+  Sat Sep 15 13:35:12 MSK 2018
+Menu Activated: Window | Zoom Out
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'basic:PAM_2nd_casc_RC{ic}': 'schematic:Bus_Pin[pin@4].bus'
+--------------- 178 --------------
+  Sat Sep 15 13:35:12 MSK 2018
+ProcessKeyBinding 400 when=1537007712628 modifiers=0 code=0 char=77(w) false false
+--------------- 179 --------------
+  Sat Sep 15 13:35:12 MSK 2018
+Menu Activated: Window | Zoom Out
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'basic:PAM_2nd_casc_RC{ic}': 'schematic:Bus_Pin[pin@4].bus'
+--------------- 180 --------------
+  Sat Sep 15 13:35:12 MSK 2018
+ProcessKeyBinding 400 when=1537007712864 modifiers=0 code=0 char=77(w) false false
+--------------- 181 --------------
+  Sat Sep 15 13:35:13 MSK 2018
+Menu Activated: Window | Zoom Out
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'basic:PAM_2nd_casc_RC{ic}': 'schematic:Bus_Pin[pin@4].bus'
+--------------- 182 --------------
+  Sat Sep 15 13:35:13 MSK 2018
+ProcessKeyBinding 400 when=1537007713260 modifiers=0 code=0 char=77(w) false false
+--------------- 183 --------------
+  Sat Sep 15 13:35:32 MSK 2018
+ProcessKeyBinding 401 when=1537007732048 modifiers=40 code=10 char=ffff false true
+--------------- 184 --------------
+  Sat Sep 15 13:35:32 MSK 2018
+ProcessKeyBinding 401 when=1537007732177 modifiers=40 code=39 char=28(() false true
+--------------- 185 --------------
+  Sat Sep 15 13:35:32 MSK 2018
+ProcessKeyBinding 402 when=1537007732361 modifiers=40 code=39 char=28(() false true
+--------------- 186 --------------
+  Sat Sep 15 13:35:32 MSK 2018
+ProcessKeyBinding 402 when=1537007732397 modifiers=0 code=10 char=ffff false true
+--------------- 187 --------------
+  Sat Sep 15 13:35:33 MSK 2018
+ProcessKeyBinding 401 when=1537007733579 modifiers=40 code=10 char=ffff false true
+--------------- 188 --------------
+  Sat Sep 15 13:35:33 MSK 2018
+ProcessKeyBinding 401 when=1537007733648 modifiers=40 code=30 char=29()) false true
+--------------- 189 --------------
+  Sat Sep 15 13:35:33 MSK 2018
+ProcessKeyBinding 402 when=1537007733750 modifiers=0 code=10 char=ffff false true
+--------------- 190 --------------
+  Sat Sep 15 13:35:33 MSK 2018
+ProcessKeyBinding 402 when=1537007733792 modifiers=0 code=30 char=29()) false true
+--------------- 191 --------------
+  Sat Sep 15 13:37:02 MSK 2018
+ProcessKeyBinding 401 when=1537007822882 modifiers=40 code=10 char=ffff false true
+--------------- 192 --------------
+  Sat Sep 15 13:37:03 MSK 2018
+ProcessKeyBinding 401 when=1537007823150 modifiers=40 code=56 char=56(V) false true
+--------------- 193 --------------
+  Sat Sep 15 13:37:03 MSK 2018
+ProcessKeyBinding 402 when=1537007823254 modifiers=0 code=10 char=ffff false true
+--------------- 194 --------------
+  Sat Sep 15 13:37:03 MSK 2018
+ProcessKeyBinding 402 when=1537007823279 modifiers=0 code=56 char=56(V) false true
+--------------- 195 --------------
+  Sat Sep 15 13:37:04 MSK 2018
+ProcessKeyBinding 401 when=1537007824071 modifiers=40 code=10 char=ffff false true
+--------------- 196 --------------
+  Sat Sep 15 13:37:04 MSK 2018
+ProcessKeyBinding 401 when=1537007824313 modifiers=40 code=39 char=28(() false true
+--------------- 197 --------------
+  Sat Sep 15 13:37:04 MSK 2018
+ProcessKeyBinding 401 when=1537007824420 modifiers=40 code=30 char=29()) false true
+--------------- 198 --------------
+  Sat Sep 15 13:37:04 MSK 2018
+ProcessKeyBinding 402 when=1537007824524 modifiers=40 code=39 char=28(() false true
+--------------- 199 --------------
+  Sat Sep 15 13:37:04 MSK 2018
+ProcessKeyBinding 402 when=1537007824586 modifiers=40 code=30 char=29()) false true
+--------------- 200 --------------
+  Sat Sep 15 13:37:04 MSK 2018
+ProcessKeyBinding 402 when=1537007824628 modifiers=0 code=10 char=ffff false true
+--------------- 201 --------------
+  Sat Sep 15 13:37:05 MSK 2018
+ProcessKeyBinding 402 when=1537007825457 modifiers=0 code=25 char=ffff false true
+--------------- 202 --------------
+  Sat Sep 15 13:37:05 MSK 2018
+ProcessKeyBinding 401 when=1537007825789 modifiers=0 code=49 char=69(i) false true
+--------------- 203 --------------
+  Sat Sep 15 13:37:05 MSK 2018
+ProcessKeyBinding 401 when=1537007825893 modifiers=0 code=4e char=6e(n) false true
+--------------- 204 --------------
+  Sat Sep 15 13:37:05 MSK 2018
+ProcessKeyBinding 402 when=1537007825992 modifiers=0 code=49 char=69(i) false true
+--------------- 205 --------------
+  Sat Sep 15 13:37:06 MSK 2018
+ProcessKeyBinding 402 when=1537007826041 modifiers=0 code=4e char=6e(n) false true
+--------------- 206 --------------
+  Sat Sep 15 13:37:06 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    Attribute 'SPICE_template' of cell 'basic:PAM_2nd_casc_RC{ic}'
+--------------- 207 --------------
+  Sat Sep 15 13:37:06 MSK 2018
+ProcessKeyBinding 400 when=1537007826979 modifiers=0 code=0 char=32(2) false false
+--------------- 208 --------------
+  Sat Sep 15 13:37:10 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].OUT3'
+--------------- 209 --------------
+  Sat Sep 15 13:38:20 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_diff_casc{ic}[PAM_diff@0].CML'
+--------------- 210 --------------
+  Sat Sep 15 13:38:20 MSK 2018
+ProcessKeyBinding 400 when=1537007900696 modifiers=0 code=0 char=31(1) false false
+--------------- 211 --------------
+  Sat Sep 15 13:38:28 MSK 2018
+ProcessKeyBinding 401 when=1537007908232 modifiers=0 code=30 char=30(0) false true
+--------------- 212 --------------
+  Sat Sep 15 13:38:28 MSK 2018
+ProcessKeyBinding 402 when=1537007908368 modifiers=0 code=30 char=30(0) false true
+--------------- 213 --------------
+  Sat Sep 15 13:38:29 MSK 2018
+ProcessKeyBinding 401 when=1537007909186 modifiers=0 code=30 char=30(0) false true
+--------------- 214 --------------
+  Sat Sep 15 13:38:29 MSK 2018
+ProcessKeyBinding 402 when=1537007909353 modifiers=0 code=30 char=30(0) false true
+--------------- 215 --------------
+  Sat Sep 15 13:38:31 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    Attribute 'SPICE_template' of cell 'basic:PAM_diff_casc{ic}'
+--------------- 216 --------------
+  Sat Sep 15 13:38:31 MSK 2018
+ProcessKeyBinding 400 when=1537007911124 modifiers=0 code=0 char=32(2) false false
+--------------- 217 --------------
+  Sat Sep 15 13:38:33 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_diff_casc{ic}[PAM_diff@0].CML'
+--------------- 218 --------------
+  Sat Sep 15 13:39:50 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@6].OUT3'
+--------------- 219 --------------
+  Sat Sep 15 13:39:50 MSK 2018
+ProcessKeyBinding 400 when=1537007990051 modifiers=0 code=0 char=31(1) false false
+--------------- 220 --------------
+  Sat Sep 15 13:39:57 MSK 2018
+Menu Activated: Window | Zoom Out
+--------------- 221 --------------
+  Sat Sep 15 13:39:57 MSK 2018
+ProcessKeyBinding 400 when=1537007997661 modifiers=400 code=0 char=77(w) false false
+--------------- 222 --------------
+  Sat Sep 15 13:39:58 MSK 2018
+Menu Activated: Window | Zoom In
+--------------- 223 --------------
+  Sat Sep 15 13:39:58 MSK 2018
+ProcessKeyBinding 400 when=1537007998959 modifiers=0 code=0 char=65(e) false false
+--------------- 224 --------------
+  Sat Sep 15 13:41:00 MSK 2018
+ProcessKeyBinding 402 when=1537008060247 modifiers=0 code=8 char=8 false true
+--------------- 225 --------------
+  Sat Sep 15 13:41:01 MSK 2018
+ProcessKeyBinding 402 when=1537008061925 modifiers=0 code=7f char=7f false true
+--------------- 226 --------------
+  Sat Sep 15 13:41:02 MSK 2018
+ProcessKeyBinding 402 when=1537008062823 modifiers=0 code=8 char=8 false true
+--------------- 227 --------------
+  Sat Sep 15 13:41:12 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    Attribute 'SPICE_template' of cell 'basic:PAM_2nd_casc_RC{ic}'
+--------------- 228 --------------
+  Sat Sep 15 13:41:12 MSK 2018
+ProcessKeyBinding 400 when=1537008072781 modifiers=0 code=0 char=32(2) false false
+--------------- 229 --------------
+  Sat Sep 15 13:41:15 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@6].OUT3'
+--------------- 230 --------------
+  Sat Sep 15 13:42:03 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_diff_casc{ic}[PAM_diff@0].outp'
+--------------- 231 --------------
+  Sat Sep 15 13:42:03 MSK 2018
+ProcessKeyBinding 400 when=1537008123859 modifiers=0 code=0 char=31(1) false false
+--------------- 232 --------------
+  Sat Sep 15 13:42:06 MSK 2018
+ProcessKeyBinding 402 when=1537008126309 modifiers=0 code=8 char=8 false true
+--------------- 233 --------------
+  Sat Sep 15 13:42:07 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    Attribute 'SPICE_template' of cell 'basic:PAM_diff_casc{ic}'
+--------------- 234 --------------
+  Sat Sep 15 13:42:07 MSK 2018
+ProcessKeyBinding 400 when=1537008127006 modifiers=0 code=0 char=32(2) false false
+--------------- 235 --------------
+  Sat Sep 15 13:42:07 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].OUT3'
+--------------- 236 --------------
+  Sat Sep 15 13:42:07 MSK 2018
+ProcessKeyBinding 400 when=1537008127608 modifiers=0 code=0 char=31(1) false false
+--------------- 237 --------------
+  Sat Sep 15 13:42:09 MSK 2018
+ProcessKeyBinding 402 when=1537008129945 modifiers=0 code=8 char=8 false true
+--------------- 238 --------------
+  Sat Sep 15 13:42:10 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    Attribute 'SPICE_template' of cell 'basic:PAM_2nd_casc_RC{ic}'
+--------------- 239 --------------
+  Sat Sep 15 13:42:10 MSK 2018
+ProcessKeyBinding 400 when=1537008130497 modifiers=0 code=0 char=32(2) false false
+--------------- 240 --------------
+  Sat Sep 15 13:42:12 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].OUT3'
+--------------- 241 --------------
+  Sat Sep 15 13:42:16 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].OUT3'
+--------------- 242 --------------
+  Sat Sep 15 13:42:16 MSK 2018
+ProcessKeyBinding 400 when=1537008136884 modifiers=0 code=0 char=31(1) false false
+--------------- 243 --------------
+  Sat Sep 15 13:42:21 MSK 2018
+ProcessKeyBinding 401 when=1537008141842 modifiers=40 code=10 char=ffff false true
+--------------- 244 --------------
+  Sat Sep 15 13:42:21 MSK 2018
+ProcessKeyBinding 401 when=1537008141960 modifiers=40 code=38 char=2a(*) false true
+--------------- 245 --------------
+  Sat Sep 15 13:42:22 MSK 2018
+ProcessKeyBinding 402 when=1537008142088 modifiers=0 code=10 char=ffff false true
+--------------- 246 --------------
+  Sat Sep 15 13:42:22 MSK 2018
+ProcessKeyBinding 402 when=1537008142102 modifiers=0 code=38 char=2a(*) false true
+--------------- 247 --------------
+  Sat Sep 15 13:42:22 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    Attribute 'SPICE_template' of cell 'basic:PAM_2nd_casc_RC{ic}'
+--------------- 248 --------------
+  Sat Sep 15 13:42:22 MSK 2018
+ProcessKeyBinding 400 when=1537008142903 modifiers=0 code=0 char=32(2) false false
+--------------- 249 --------------
+  Sat Sep 15 13:42:24 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].OUT3'
+--------------- 250 --------------
+  Sat Sep 15 13:42:28 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].OUT3'
+--------------- 251 --------------
+  Sat Sep 15 13:42:30 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_diff_casc{ic}[PAM_diff@0].outm'
+--------------- 252 --------------
+  Sat Sep 15 13:42:30 MSK 2018
+ProcessKeyBinding 400 when=1537008150202 modifiers=0 code=0 char=31(1) false false
+--------------- 253 --------------
+  Sat Sep 15 13:42:32 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'basic:PAM_diff_casc{ic}': 'schematic:Bus_Pin[pin@4].bus'
+--------------- 254 --------------
+  Sat Sep 15 13:42:32 MSK 2018
+ProcessKeyBinding 400 when=1537008152232 modifiers=0 code=0 char=32(2) false false
+--------------- 255 --------------
+  Sat Sep 15 13:42:33 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_diff_casc{ic}[PAM_diff@0].outp'
+--------------- 256 --------------
+  Sat Sep 15 13:42:33 MSK 2018
+ProcessKeyBinding 400 when=1537008153519 modifiers=0 code=0 char=31(1) false false
+--------------- 257 --------------
+  Sat Sep 15 13:42:38 MSK 2018
+ProcessKeyBinding 402 when=1537008158250 modifiers=0 code=8 char=8 false true
+--------------- 258 --------------
+  Sat Sep 15 13:42:38 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    Attribute 'SPICE_template' of cell 'basic:PAM_diff_casc{ic}'
+--------------- 259 --------------
+  Sat Sep 15 13:42:39 MSK 2018
+ProcessKeyBinding 400 when=1537008158995 modifiers=0 code=0 char=32(2) false false
+--------------- 260 --------------
+  Sat Sep 15 13:42:41 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_diff_casc{ic}[PAM_diff@0].outp'
+--------------- 261 --------------
+  Sat Sep 15 13:42:44 MSK 2018
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].CML'
+--------------- 262 --------------
+  Sat Sep 15 13:42:44 MSK 2018
+ProcessKeyBinding 400 when=1537008164004 modifiers=0 code=0 char=31(1) false false
+--------------- 263 --------------
+  Sat Sep 15 13:42:47 MSK 2018
+ProcessKeyBinding 402 when=1537008167649 modifiers=0 code=8 char=8 false true
+--------------- 264 --------------
+  Sat Sep 15 13:42:48 MSK 2018
+Menu Activated: Cell | Up Hierarchy | Up Hierarchy
+Currently highlighted: 
+    Attribute 'SPICE_template' of cell 'basic:PAM_2nd_casc_RC{ic}'
+--------------- 265 --------------
+  Sat Sep 15 13:42:48 MSK 2018
+ProcessKeyBinding 400 when=1537008168263 modifiers=0 code=0 char=32(2) false false
+--------------- 266 --------------
+  Sat Sep 15 13:42:53 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell '1234{sch}': 'basic:PAM_2nd_casc_RC{ic}[PAM_2nd_@5].CML'
+--------------- 267 --------------
+  Sat Sep 15 13:43:46 MSK 2018
+ProcessKeyBinding 401 when=1537008226183 modifiers=80 code=11 char=ffff false false
+--------------- 268 --------------
+  Sat Sep 15 13:43:46 MSK 2018
+ProcessKeyBinding 401 when=1537008226195 modifiers=280 code=12 char=ffff false false
+--------------- 269 --------------
+  Sat Sep 15 13:44:02 MSK 2018
+Menu Activated: Tools | Simulation (Spice) | Simulate With Keys
+--------------- 270 --------------
+  Sat Sep 15 13:44:38 MSK 2018
+ProcessKeyBinding 401 when=1537008278888 modifiers=80 code=11 char=ffff false false
+--------------- 271 --------------
+  Sat Sep 15 13:44:38 MSK 2018
+Menu Activated: File | Save All Libraries
+--------------- 272 --------------
+  Sat Sep 15 13:44:38 MSK 2018
+ProcessKeyBinding 400 when=1537008278971 modifiers=80 code=0 char=13 false false
+--------------- 273 --------------
+  Sat Sep 15 13:44:39 MSK 2018
+ProcessKeyBinding 402 when=1537008279053 modifiers=0 code=11 char=ffff false false

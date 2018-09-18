@@ -48,6 +48,86 @@ Es||D5G1;|pin@2||U
 Ez||D5G1;|pin@0||U
 X
 
+# Cell PAM_1st_casc_uni;1{ic}
+CPAM_1st_casc_uni;1{ic}||artwork|1536831910915|1536847381442|E|ATTR_SPICE_template(A15;D6NTX9.75;Y1.75;)S[X$(node_name) $(INP1) $(INM1) $(out) PAM_1st_casc_uni,.SUBCKT PAM_1st_casc_uni INP1 INM1 out,B2 net14 0 I=V(net34)*1m,B1 net10 0 I=V(net14)*1m,B0 out 0 I=V(net10)*1m,R6 net10 net31 R=318.47,R0 out 0 R=1k,R4 out net27 R=46.12m,R7 net10 0 R=1k,R8 net14 0 R=1k,C0 net27 0 C=18u,C4 net14 0 C=1p,C3 net31 0 C = 1.682p,B3 net34 0 V=(V(INP1)-V(INM1))*1,.ENDS PAM_1st_casc_uni,**************************************************************]
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@1||3.5|1.5|6|6||
+NPin|pin@1||1.25|3|1|1||
+NPin|pin@2||1.25|0|1|1||
+NPin|pin@3||5.75|1.5|1|1||
+Nschematic:Bus_Pin|pin@4||1.25|3||||
+Nschematic:Bus_Pin|pin@5||1.25|0||||
+Nschematic:Bus_Pin|pin@6||5.75|1.5||||
+Ngeneric:Invisible-Pin|pin@7||3.75|4|||||ART_message(D5G0.5;)SPAM_1st_casc_uni
+EINM1||D5G1;|pin@5||U
+EINP1||D5G1;|pin@4||U
+Eout||D5G1;|pin@6||U
+X
+
+# Cell PAM_2nd_casc_I;1{ic}
+CPAM_2nd_casc_I;1{ic}||artwork|1536832679257|1536845793321|E|ATTR_SPICE_template(A15;D6NTX-5.25;Y1.25;)S[X$(node_name) $(in) $(OUT1) PAM_2nd_casc_I,.SUBCKT PAM_2nd_casc_I in OUT1,B0 OUT1 0 V=V(in)*13567,.ENDS PAM_2nd_casc_I,**************************************************************]
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@1||-10.5|1|6|6||
+NPin|pin@2||-12.75|1|1|1||
+NPin|pin@3||-8.25|1|1|1||
+Nschematic:Bus_Pin|pin@5||-12.75|1||||
+Nschematic:Bus_Pin|pin@6||-8.25|1||||
+Ngeneric:Invisible-Pin|pin@7||-10.25|3.5|||||ART_message(D5G0.5;)SPAM_2nd_casc_I
+EOUT1||D5G1;|pin@6||U
+Ein||D5G1;|pin@5||U
+X
+
+# Cell PAM_2nd_casc_RC;1{ic}
+CPAM_2nd_casc_RC;1{ic}||artwork|1536832926852|1537008169117|E|ATTR_SPICE_template(A15;D6NTX2.5;Y1.5;)S[X$(node_name) $(in) $(CML) $(OUT3) PAM_2nd_casc_RC,.SUBCKT PAM_2nd_casc_RC in CML OUT3,R0 CML 0 100Meg,B0 net5 0 I=(V(in))*145.21m,R3 net5 0 R=1k,C2 net5 0 C=873p,"B1 OUT3 CML V=min(max((V(net5)*1970064),-2.5),2.5)",.ENDS PAM_2nd_casc_RC,**************************************************************]
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@1||-3.75|1|6|6||
+NPin|pin@1||-6|1|1|1||
+NPin|pin@2||-1.5|1|1|1||
+Nschematic:Bus_Pin|pin@3||-6|1||||
+Nschematic:Bus_Pin|pin@4||-1.5|1||||
+Ngeneric:Invisible-Pin|pin@5||-3.5|3.5|||||ART_message(D5G0.5;)SPAM_2nd_casc_RC
+NPin|pin@6||-6|-1.25|1|1||
+Nschematic:Bus_Pin|pin@7||-6|-1.25||||
+ECML||D5G1;|pin@7||U
+EOUT3||D5G1;|pin@4||U
+Ein||D5G1;|pin@3||U
+X
+
+# Cell PAM_2nd_casc_comp;1{ic}
+CPAM_2nd_casc_comp;1{ic}||artwork|1536833120886|1536909890781|E|ATTR_SPICE_template(A15;D6NTX-0.25;Y1.5;)S[X$(node_name) $(in) $(OUT2) PAM_2nd_casc_comp,.SUBCKT PAM_2nd_casc_comp in OUT2,"B0 OUT2 0 V=max(min(((V(in)-2.5)*10000),5),0)",.ENDS PAM_2nd_casc_comp,**************************************************************]
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@1||-5|0.75|6|6||
+NPin|pin@1||-7.25|0.75|1|1||
+NPin|pin@2||-2.75|0.75|1|1||
+Nschematic:Bus_Pin|pin@3||-7.25|0.75||||
+Nschematic:Bus_Pin|pin@4||-2.75|0.75||||
+Ngeneric:Invisible-Pin|pin@5||-4.75|3.25|||||ART_message(D5G0.5;)SPAM_2nd_casc_comp
+EOUT2||D5G1;|pin@4||U
+Ein||D5G1;|pin@3||U
+X
+
+# Cell PAM_diff_casc;1{ic}
+CPAM_diff_casc;1{ic}||artwork|1536833540588|1537008158841|E|ATTR_SPICE_template(A15;D6NTY0.75;)S[X$(node_name) $(INP2) $(INM2) $(CML) $(outm) $(outp) PAM_diff_casc,.SUBCKT PAM_diff_casc INP2 INM2 CML outm outp,B0 net8 0 I=V(net24)*1,R9 net8 0 R=1k,C5 net8 0 C=11.2u,B1 outp 0 V=V(net8)/2,B2 outm 0 V=-V(net8)/2,B3 net24 0 V=V(INP2)-V(INM2),.ENDS PAM_diff_casc,**************************************************************]
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@1||-4.75|0.75|6|6||
+NPin|pin@1||-7|0.75|1|1||
+NPin|pin@2||-2.5|1.25|1|1||
+Nschematic:Bus_Pin|pin@3||-7|0.75||||
+Nschematic:Bus_Pin|pin@4||-2.5|1.25||||
+Ngeneric:Invisible-Pin|pin@5||-4.5|3.25|||||ART_message(D5G0.5;)SPAM_diff_casc
+NPin|pin@6||-7|-1.25|1|1||
+Nschematic:Bus_Pin|pin@7||-7|-1.25||||
+NPin|pin@8||-7|2|1|1||
+Nschematic:Bus_Pin|pin@9||-7|2||||
+NPin|pin@10||-2.5|-0.25|1|1||
+Nschematic:Bus_Pin|pin@11||-2.5|-0.25||||
+ECML||D5G1;|pin@7||U
+EINM2||D5G1;|pin@3||U
+EINP2||D5G1;|pin@9||U
+Eout1|outm|D5G1;|pin@4||U
+Eout2|outp|D5G1;|pin@11||U
+X
+
 # Cell Ptran;1{ic}
 CPtran;1{ic}||artwork|1523018224419|1523023391144|E
 Ngeneric:Facet-Center|art@0||0|0||||AV
