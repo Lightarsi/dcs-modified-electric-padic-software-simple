@@ -1,1 +1,0 @@
-ngspice -b -r /home/simulations/5400TP035/5400TP035_autotracing/temp.raw -i /home/simulations/5400TP035/5400TP035_autotracing/tempi.spi -o /home/simulations/5400TP035/5400TP035_autotracing/temp.log -a

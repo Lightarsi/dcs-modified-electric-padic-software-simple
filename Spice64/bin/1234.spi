@@ -1,0 +1,40 @@
+************************************
+
+.SUBCKT SWIO in m out
+a1 in m out tri1
+a2 out m in tri1
+.model tri1 d_tristate_spc_z(delay = 0.5e-12 input_load = 0.5e-12 enable_load = 0.5e-12)
+.ENDS SWIO
+
+.SUBCKT pad from_pad from_mux to_pad to_mux m
+
+a1 from_pad m to_mux tri
+a2 to_mux m from_pad tri
+
+a3 m inv_m inv
+a4 from_mux inv_m to_pad tri
+a5 to_pad inv_m from_mux tri
+
+.model inv d_inverter(rise_delay = 0.5e-12 fall_delay = 0.3e-9 input_load = 0.5e-12)
+.model tri d_tristate_spc_z(delay = 0.5e-12 input_load = 0.5e-9 enable_load = 0.5e-9)
+.ENDS pad
+
+a_source [in m_pad out2_pad_avoid]  d_source1
+.model d_source1 d_source(input_file="d_source-stimulus.txt")
+
+a3 m_pad m_inv_pad inv
+.model inv d_inverter(rise_delay = 0.5e-12 fall_delay = 0.3e-9 input_load = 0.5e-12)
+x_pad from_pad in from_pad to_mux m_inv_pad pad
+x_SWIO out2_pad m_pad from_pad SWIO
+*x_SWIO2 out_pad m_pad out2_pad SWIO
+
+
+.control
+set noaskquit
+set noacct
+tran 100ps 600ns
+edisplay
+eprint in m_pad from_pad out2_pad
+.endc
+
+.end

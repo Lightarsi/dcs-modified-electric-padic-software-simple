@@ -1,0 +1,14 @@
+* time, a1 a2 a3
+0n		0z 0z 0z
+1n      1s 1s 0z
+5n      1s 1s 0z
+10n     0s 1s 0z
+15n     1s 1s 0z
+20n     0s 1s 0z
+25n     1s 1s 0z
+30n     0s 1s 0z
+35n     1s 1s 0z
+40n     0z 1s 0z
+45n     0z 1s 0z
+50n     0z 1s 0z
+55n     0z 1s 0z

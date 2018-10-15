@@ -1,0 +1,28 @@
+vdummy dummy 0 DC=0
+
+a_source [from_pad m to_pad_avoid]  d_source1
+
+a1 from_pad m to_mux to_mux tritest
+a2 to_mux m from_pad from_pad tritest
+
+*a3 m inv_m inv
+*a4 from_mux inv_m to_pad tri
+*a5 to_pad inv_m from_mux tri
+
+
+a6 to_mux m out out tritest
+a7 out m to_mux to_mux tritest
+
+.model inv d_inverter(rise_delay = 0.5e-12 fall_delay = 0.3e-9 input_load = 0.5e-12)
+.model tri d_tristate_spc_z(delay = 1e-15 input_load = 0.5e-9 enable_load = 0.5e-9)
+.model tritest d_tristate_spc(delay = 1e-15 input_load = 0.5e-9 enable_load = 0.5e-9)
+.model d_source1 d_source (input_file="d_source-stimulus.txt")
+
+.control
+set noaskquit
+set noacct
+tran 100ps 60ns
+eprint from_pad m to_mux out
+.endc
+
+.end
